@@ -1,6 +1,6 @@
 # Awesome XMTP
 
-A list of awesome projects using XMTP. Also check out the curated showcase at [Built with XMTP](https://xmtp.org/community/builtWithXmtp) 🛠️
+A list of awesome projects using XMTP. Also check out the curated showcase at [Built with XMTP](https://xmtp.org/built-with-xmtp) 🛠️
 
 Create a PR, join the list, get visibility 👀
 
