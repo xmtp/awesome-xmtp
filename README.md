@@ -1,8 +1,8 @@
 # Awesome XMTP
 
-A list of awesome projects using XMTP. Also check out the curated showcase at [Built with XMTP](https://xmtp.org/community/builtWithXmtp)!
+A list of awesome projects using XMTP. Also check out the curated showcase at [Built with XMTP](https://xmtp.org/community/builtWithXmtp) 🛠️
 
-Create a PR and add your project to the list.
+Create a PR, join the list, get visibility 👀
 
 ## Chat apps
 
@@ -15,6 +15,7 @@ Create a PR and add your project to the list.
 ## Marketplaces
 
 * [meTokens](https://github.com/meTokens/meTokens-core) - Discover tokenized builders & creators.
+* [Boson App](https://github.com/bosonprotocol) - Tokenize, transfer, and trade any physical asset as an NFT.
 * [Market3](https://github.com/openmagic-io/openmagic-community-marketplace-demo) - Eliminate fraud with verified chat for markets.
 * [Decentralized Ticketing Platform](https://github.com/arthurka-o/decentralized-ticket-platform) - Buy and sell tickets using NFTs.
 * [OTC Swap](https://github.com/Aqrare/eth-nyc) - Chat based bartering system for P2P NFT trading using Opensea Seaport.
