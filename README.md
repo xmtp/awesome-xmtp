@@ -35,8 +35,8 @@ Create a PR and add your project to the list.
 
 ## More projects
 
-* [Relay Receiver](https://github.com/relaycc/sybil-interface-receiver) - No-code wallet chat for websites.
-* [meTokens](https://github.com/meTokens/meTokens-core) - Discover tokenized builders & creators.
 * [XMTP.chat](https://github.com/xmtp/example-chat-react) - Example chat app demonstrating core capabilities of the XMTP client SDK.
 * [Lenster](https://github.com/lensterxyz/lenster) - Lenster is a composable, decentralized, and permissionless social media web app built with Lens Protocol.
+* [Relay Receiver](https://github.com/relaycc/sybil-interface-receiver) - No-code wallet chat for websites.
+* [meTokens](https://github.com/meTokens/meTokens-core) - Discover tokenized builders & creators.
 * [Lensport](https://lensport.io/) - Discover, collect, and sell Lens Posts to invest in creators you support.
