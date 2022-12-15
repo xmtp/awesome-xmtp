@@ -28,12 +28,12 @@ Create a PR and add your project to the list.
 
 ## Gaming
 
-* [Dehitas](https://github.com/Lampros-Tech/hireverse/tree/development) - Decentralized hiring platform for efficient talent qualification and customizable assessment tests.
+* [GameJutsu](https://github.com/ChainHackers) - Using E2EE messages as signed game moves between players.
 * [GameChat](https://github.com/orgs/ethsfX22/repositories) - A web3-native gaming client leveraging zero-knowledge proofs.
 
 ## HR & Recruiting
 
-* [GameJutsu](https://github.com/ChainHackers) - Using E2EE messages as signed game moves between players.
+* [Dehitas](https://github.com/Lampros-Tech/hireverse/tree/development) - Decentralized hiring platform for efficient talent qualification and customizable assessment tests.
 
 ## Filesharing
 
