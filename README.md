@@ -26,6 +26,7 @@ Create a PR, join the list, get visibility 👀
 
 * [Lenster](https://github.com/lensterxyz/lenster) - Lenster is a composable, permissionless social media app built with Lens Protocol.
 * [Lensport](https://lensport.io/) - Discover, collect, and sell Lens Posts to invest in creators you support.
+* [Buttrfly](https://www.buttrfly.app/) - Decentralized social media app built for a mobile first experience on iOS.
 
 ## Gaming
 
