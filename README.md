@@ -11,6 +11,7 @@ Create a PR, join the list, get visibility 👀
 * [De-Chat](https://github.com/De-Chat) - Chat app supporting token sending, video calling, and file sharing.
 * [Beep3r](https://github.com/FUTUREPRIMITIVEXYZ/bb3-beep3r) - NFT beeper to broadcast messages to owners.
 * [PreshMail](https://github.com/agxmbhir/relay) - Messaging app on your terms; get paid to receive messages.
+* [XMTP x Next.js](https://github.com/dabit3/xmtp-chat-app-nextjs) - A basic reference app to get started building with XMTP and React.js.
 
 ## Marketplaces
 
