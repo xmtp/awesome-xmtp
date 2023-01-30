@@ -11,8 +11,11 @@ Create a PR, join the list, get visibility 👀
 * [De-Chat](https://github.com/De-Chat) - Chat app supporting token sending, video calling, and file sharing.
 * [Beep3r](https://github.com/FUTUREPRIMITIVEXYZ/bb3-beep3r) - NFT beeper to broadcast messages to owners.
 * [PreshMail](https://github.com/agxmbhir/relay) - Messaging app on your terms; get paid to receive messages.
+
+## Developer tools
+
+* [Liteflow Chat](https://github.com/liteflow-labs/chat) - A library to integrate a ready-to-use chat window in any dApp.
 * [XMTP x Next.js](https://github.com/dabit3/xmtp-chat-app-nextjs) - A basic reference app to get started building with XMTP and React.js.
-* [Liteflow Chat](https://github.com/liteflow-labs/chat) - A library to integrate a ready-to-use chat window within any DApp.
 
 ## Marketplaces
 
@@ -52,4 +55,4 @@ Create a PR, join the list, get visibility 👀
 
 ## Automation
 
-* [Relay](https://grappelliproject.com/) - A web3 Zapier to automate notifications on EVM chains.
+* [ChainJet]([https://grappelliproject.com/](https://github.com/chainjet/platform)) - A web3 Zapier to automate on-chain and off-chain workflows.
