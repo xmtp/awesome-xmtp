@@ -12,6 +12,7 @@ Create a PR, join the list, get visibility 👀
 * [Beep3r](https://github.com/FUTUREPRIMITIVEXYZ/bb3-beep3r) - NFT beeper to broadcast messages to owners.
 * [PreshMail](https://github.com/agxmbhir/relay) - Messaging app on your terms; get paid to receive messages.
 * [XMTP x Next.js](https://github.com/dabit3/xmtp-chat-app-nextjs) - A basic reference app to get started building with XMTP and React.js.
+* [Liteflow Chat](https://github.com/liteflow-labs/chat) - A library to integrate a ready-to-use chat window within any DApp.
 
 ## Marketplaces
 
