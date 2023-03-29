@@ -57,4 +57,4 @@ Create a PR, join the list, get visibility 👀
 
 ## Automation
 
-* [ChainJet]([https://grappelliproject.com/](https://github.com/chainjet/platform)) - A web3 Zapier to automate on-chain and off-chain workflows.
+* [ChainJet](https://chainjet.io/) - A web3 Zapier to automate on-chain and off-chain workflows.
