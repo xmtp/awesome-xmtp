@@ -41,6 +41,8 @@ Create a PR, join the list, get visibility 👀
 ## HR & Recruiting
 
 * [Dehitas](https://github.com/Lampros-Tech/hireverse/tree/development) - Decentralized hiring platform for efficient talent qualification and customizable assessment tests.
+* [Talently.app](https://talently.app) - Explore your on-chain resumes and search and receive excellent web3 job opportunities right to your XMTP inbox.
+
 
 ## Filesharing
 
