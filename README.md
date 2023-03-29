@@ -41,6 +41,8 @@ Create a PR, join the list, get visibility 👀
 ## HR & Recruiting
 
 * [Dehitas](https://github.com/Lampros-Tech/hireverse/tree/development) - Decentralized hiring platform for efficient talent qualification and customizable assessment tests.
+* [Talently.app](https://talently.app) - Explore your on-chain resumes and search and receive excellent web3 job opportunities right to your XMTP inbox.
+
 
 ## Filesharing
 
@@ -55,4 +57,4 @@ Create a PR, join the list, get visibility 👀
 
 ## Automation
 
-* [ChainJet]([https://grappelliproject.com/](https://github.com/chainjet/platform)) - A web3 Zapier to automate on-chain and off-chain workflows.
+* [ChainJet](https://chainjet.io/) - A web3 Zapier to automate on-chain and off-chain workflows.
