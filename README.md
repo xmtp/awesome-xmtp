@@ -74,13 +74,6 @@ Create a PR, join the list, get visibility 👀
 * [Build3r](https://ethglobal.com/showcase/build3r-awy06) - Offer customer support through NFT ownership
 * [Relay](https://relay.cc/) - Relay is the intersection of Ethereum-enabled OpenAI agents and wallet messaging.
 
-## Web3 Social 🌿
-
-* [Buttrfly](https://buttrfly.app/) - Web3 Social Explorer
-* [Lenster](https://lenster.xyz/) - Lenster is a composable, decentralized, and permissionless social media webapp built with Lens Protocol.
-* [Pinsta](https://pinsta.xyz/) - Decentralized image and video sharing service. Create Pin Boards to collect and discover rich media.
-* [Orb](https://orb.ac/) - Super App for Social Media.
-
 ## Automation 🤖
 
 * [ChromeExt](https://ethglobal.com/showcase/chromeext-chatonweb3withtokengatingcontent-mq751) - XMTP web3 chat improvement that with chrome notification, token gating and NFT unlocking widget in chat box ;)
