@@ -45,10 +45,6 @@ Create a PR, join the list, get visibility 👀
 * [Coinbase](https://www.coinbase.com/) - Jump start your crypto portfolio
 * [ZKPay](https://taikai.network/cryptocanal/hackathons/ethdam/projects/clhxb2yr4121242001zlpx01djwu/idea) - Token transfers via chat
 
-## Developers 👨‍💻
-
-* [Everyname](https://www.everyname.xyz/) - Own your conversations.
-
 ## Gaming 🎮
 
 * [P2P Games](https://ethglobal.com/showcase/p2p-games-19vqx) - P2P Gaming platform, find and play by using ENS or Eth address
