@@ -61,7 +61,7 @@ Create a PR, join the list, get visibility 👀
 
 ## Marketing 📣
 
-* [You’ve got email](https://ygm.mbla.xyz/) - With it's as easy as sending an email. Check your wallet to see if someone has already sent you a message, or send one of your own!
+* [You’ve got email](https://ygm.mbla.xyz/) - With xmtp it's as easy as sending an email. Check your wallet to see if someone has already sent you a message, or send one of your own!
 * [AbsoluteLabs](https://absolutelabs.io/) - Reach wallets with custom flows
 * [Hiolder](https://www.holder.xyz/) - Holder is a web3 CRM and customer engagement platform for the tokenized world.
 * [IDENTI3](https://ethglobal.com/showcase/identi3-u8rs7) - Communicate with your subscription customers
