@@ -6,6 +6,9 @@ Create a PR, join the list, get visibility 👀
 
 ## Chat Apps 💬
 
+* [Coinbase Wallet](https://www.coinbase.com/wallet) - Your key to the world of crypto. Manage all of your crypto, NFTs, multiple wallets, and messages in one place.
+* [Inbox Web](https://xmtp.chat/) - XMTP Inbox chat app demonstrates core and advanced capabilities of the XMTP client SDK.
+* [Converse](https://getconverse.app/) - Own your conversations.
 * [GhostShare](https://ethglobal.com/showcase/ghostshare-z7c3y) - Ghostshare is the service you use to share a file in a private and decentralized way!
 * [PreshMail](https://ethglobal.com/showcase/preshmail-rnuzb) - A composable chat app at built on top of Lens and XMTP that democratizes and monetize your attention!
 * [0xrelay](https://ethglobal.com/showcase/0xrelay-fwosy) - 0xrelay enables creators to connect with their fans by sending messages to Ethereum wallet addresses off-chain!
@@ -14,8 +17,6 @@ Create a PR, join the list, get visibility 👀
 * [Decentral Couch](https://ethglobal.com/showcase/decentral-couch-g1xtk) - Decentral couch helps crypto natives find crash-pads when they travel. It is designed to be as decentralized as possible, by leveraging decentralized storage and messaging, as well as Zk-identity and badges to make private but verifiable reputation.
 * [GameChat](https://ethglobal.com/showcase/gamechat-4p5qj) - GameChat is a web3-native chat client implementation to enable gamers to chat with other gamers while enforcing identity claims using ZK
 * [Voice](https://ethglobal.com/showcase/audiox-huq8u) - Audio Call Dapp where user can connect with other people for audio call from wallet
-* [Inbox Web](https://xmtp.chat/) - XMTP Inbox chat app demonstrates core and advanced capabilities of the XMTP client SDK.
-* [Converse](https://getconverse.app/) - Own your conversations.
 * [CryptoCupid](https://ethglobal.com/showcase/cryptocupid-cegju) - A decentralized anonymous human to human dating platform powered by Worldcoin and XMTP
 
 ## Web3 Social 🌿
@@ -36,6 +37,7 @@ Create a PR, join the list, get visibility 👀
 
 ## DeFi 🏦
 
+* [Coinbase Wallet](https://www.coinbase.com/wallet) - Your key to the world of crypto. Manage all of your crypto, NFTs, multiple wallets, and messages in one place. 
 * [W3NPAY](https://ethglobal.com/showcase/w3npay-d7rk8) - Web3 Venmo - Send and request crypto payments to people that have an EVM wallet.
 * [CompliSend](https://ethglobal.com/showcase/complisend-3j0jx) - KYC erc20/721 transfer with messaging and zk reporting to an auditor
 * [De-Chat](https://ethglobal.com/showcase/de-chat-rr8zk) - A chat service that allows user to send tokens to the other party
@@ -57,6 +59,8 @@ Create a PR, join the list, get visibility 👀
 
 ## Marketing 📣
 
+* [Paragraph](https://paragraph.xyz/) - Building tools that enable publishers, DAOs, writers, and creators build communities and monetize their content.
+* [Bello](https://bello.lol/) - Instantly analyze your Web3 community and its competitors without writing a single line of code.
 * [You’ve got email](https://ygm.mbla.xyz/) - With xmtp it's as easy as sending an email. Check your wallet to see if someone has already sent you a message, or send one of your own!
 * [AbsoluteLabs](https://absolutelabs.io/) - Reach wallets with custom flows
 * [Hiolder](https://www.holder.xyz/) - Holder is a web3 CRM and customer engagement platform for the tokenized world.
@@ -68,6 +72,7 @@ Create a PR, join the list, get visibility 👀
 
 * [Build3r](https://ethglobal.com/showcase/build3r-awy06) - Offer customer support through NFT ownership
 * [Relay](https://relay.cc/) - Relay is the intersection of Ethereum-enabled OpenAI agents and wallet messaging.
+* [Unstoppable Domains](https://unstoppabledomains.com/) - Own your identity in the digital world. Get started with a Web3 domain..
 
 ## Automation 🤖
 
