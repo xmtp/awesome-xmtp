@@ -18,6 +18,7 @@ Create a PR, join the list, get visibility 👀
 * [GameChat](https://ethglobal.com/showcase/gamechat-4p5qj) - GameChat is a web3-native chat client implementation to enable gamers to chat with other gamers while enforcing identity claims using ZK
 * [Voice](https://ethglobal.com/showcase/audiox-huq8u) - Audio Call Dapp where user can connect with other people for audio call from wallet
 * [CryptoCupid](https://ethglobal.com/showcase/cryptocupid-cegju) - A decentralized anonymous human to human dating platform powered by Worldcoin and XMTP
+* [Vouch Messenger](https://ethglobal.com/showcase/vouch-messenger-qqvjm) - A native iOS app which is on a mission to make sure you know who you're talking to, through verification and social graphs we're creating a safe place to connect and have fun.
 
 ## Web3 Social 🌿
 
@@ -25,7 +26,10 @@ Create a PR, join the list, get visibility 👀
 * [Lenster](https://lenster.xyz/) - Lenster is a composable, decentralized, and permissionless social media webapp built with Lens Protocol.
 * [Pinsta](https://pinsta.xyz/) - Decentralized image and video sharing service. Create Pin Boards to collect and discover rich media.
 * [Orb](https://orb.ac/) - Super App for Social Media.
-
+* [Upper Social](https://ethglobal.com/showcase/upper-social-nq3iw) - Upper is a social network where you can be a creator, sell content pieces to fans, and get funding from a shared pool. Fans can trade these pieces and vote on creator projects.
+* [Gaston](https://ethglobal.com/showcase/gaston-8s4dq) - Extract Event types from any contract and turn them into decentralized notifications
+* [Funnel][(https://ethglobal.com/showcase/funnel-z8f80) - Creation of onchain condition-gated discussion & threads-like channels.
+  
 ## Commerce 💳
 
 * [Market3 & Walletscan](https://ethglobal.com/showcase/market3-and-walletscan-a-trusted-marketplace-s9nsj) - Allow communication between artists and consumers
@@ -34,6 +38,7 @@ Create a PR, join the list, get visibility 👀
 * [Boson](https://www.bosonprotocol.io/) - Boson Protocol enables the tokenization, transfer and trade of any physical thing as a redeemable NFT.
 * [Discova](https://ethglobal.com/showcase/discova-e3jc2) - Discover and engage with NFTs like never before with Discovia. AI-powered search, on-chain engagement, and proportional rewards for your contributions. Join the future of AI enabled content discovery and get rewarded!
 * [zBay](https://ethglobal.com/showcase/zbay-r0724) - zBay revolutionizes online marketplaces by decentralizing eBay, empowering merchants and buyers. It enables seamless data and reputation import from eBay, secure escrow, XMTP chat, and transparent dispute resolution using the Uma optimistic oracle
+* [Soho](https://ethglobal.com/showcase/soho-xo1fi) - revolutionizing API marketplaces by leveraging XMTP for secure API key transfers via XMTP, making centralized APIs more accessible.
 
 ## DeFi 🏦
 
@@ -46,6 +51,7 @@ Create a PR, join the list, get visibility 👀
 * [meTokens](https://metokens.com/) - meTokens is a protocol built on Ethereum that allows creators and builders to issue their own personal token.
 * [Coinbase](https://www.coinbase.com/) - Jump start your crypto portfolio
 * [ZKPay](https://taikai.network/cryptocanal/hackathons/ethdam/projects/clhxb2yr4121242001zlpx01djwu/idea) - Token transfers via chat
+* [TrueP2P](https://ethglobal.com/showcase/truep2p-9wbj6) - P2P swaps market based on onchain wire transfer confirmation
 
 ## Gaming 🎮
 
@@ -80,3 +86,9 @@ Create a PR, join the list, get visibility 👀
 * [ChromeExt](https://ethglobal.com/showcase/chromeext-chatonweb3withtokengatingcontent-mq751) - XMTP web3 chat improvement that with chrome notification, token gating and NFT unlocking widget in chat box ;)
 * [Relay](https://ethglobal.com/showcase/relay-85njt) - Zapier for web3. Automate notifications on EVM compatible chains for triggers like specific prices, liquidation percentages, changes in owners, and more. Get a notification to your XMTP account when the trigger crosses your desired value.
 * [Roll a Mate](https://ethglobal.com/showcase/roll-a-mate-ob574) - Send money on Ethereum Mainnet with transfers costing from zero to 4 cents
+* [AirTracker](https://ethglobal.com/showcase/airtracker-8qstn) - Airtracker brings decentralized asset tracking into the mainstream by using XMTP messaging to notify users about significant changes in their assets’ locations.
+
+
+## Developers 👩‍💻
+* [RemoteEOA](https://ethglobal.com/showcase/remoteeoa-ocgsq) - Remote Control of EOA wallets allow 3rd parties to script and manage wallets on your behalf without ever exposing private keys.
+* [Scrubbie](https://xmtp.org/blog/eth-new-york) - Scrubbie enhances messaging experiences by allowing XMTP clients to filter spam through a specialized API.
