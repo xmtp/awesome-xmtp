@@ -28,7 +28,7 @@ Create a PR, join the list, get visibility 👀
 * [Orb](https://orb.ac/) - Super App for Social Media.
 * [Upper Social](https://ethglobal.com/showcase/upper-social-nq3iw) - Upper is a social network where you can be a creator, sell content pieces to fans, and get funding from a shared pool. Fans can trade these pieces and vote on creator projects.
 * [Gaston](https://ethglobal.com/showcase/gaston-8s4dq) - Extract Event types from any contract and turn them into decentralized notifications
-* [Funnel][(https://ethglobal.com/showcase/funnel-z8f80) - Creation of onchain condition-gated discussion & threads-like channels.
+* [Funnel](https://ethglobal.com/showcase/funnel-z8f80) - Creation of onchain condition-gated discussion & threads-like channels.
   
 ## Commerce 💳
 
