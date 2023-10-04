@@ -23,7 +23,7 @@ Create a PR, join the list, get visibility 👀
 ## Web3 Social 🌿
 
 * [Buttrfly](https://buttrfly.app/) - Web3 Social Explorer
-* [Lenster](https://lenster.xyz/) - Lenster is a composable, decentralized, and permissionless social media webapp built with Lens Protocol.
+* [Hey](https://hey.xyz/) - Hey is a decentralized and permissionless social media app built with Lens Protocol.
 * [Pinsta](https://pinsta.xyz/) - Decentralized image and video sharing service. Create Pin Boards to collect and discover rich media.
 * [Orb](https://orb.ac/) - Super App for Social Media.
 * [Upper Social](https://ethglobal.com/showcase/upper-social-nq3iw) - Upper is a social network where you can be a creator, sell content pieces to fans, and get funding from a shared pool. Fans can trade these pieces and vote on creator projects.
@@ -88,6 +88,9 @@ Create a PR, join the list, get visibility 👀
 * [Roll a Mate](https://ethglobal.com/showcase/roll-a-mate-ob574) - Send money on Ethereum Mainnet with transfers costing from zero to 4 cents
 * [AirTracker](https://ethglobal.com/showcase/airtracker-8qstn) - Airtracker brings decentralized asset tracking into the mainstream by using XMTP messaging to notify users about significant changes in their assets’ locations.
 
+
+## DAOs 👩‍💻
+* [DAO](https://snapshot.org/) - Snapshot is an off-chain voting platform that allows DAOs, DeFi protocols, or NFT communities to participate in the decentralized governance easily and without gas fees.
 
 ## Developers 👩‍💻
 * [RemoteEOA](https://ethglobal.com/showcase/remoteeoa-ocgsq) - Remote Control of EOA wallets allow 3rd parties to script and manage wallets on your behalf without ever exposing private keys.
