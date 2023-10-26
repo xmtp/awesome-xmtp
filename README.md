@@ -69,7 +69,7 @@ Create a PR, join the list, get visibility 👀
 * [Bello](https://bello.lol/) - Instantly analyze your Web3 community and its competitors without writing a single line of code.
 * [You’ve got email](https://ygm.mbla.xyz/) - With xmtp it's as easy as sending an email. Check your wallet to see if someone has already sent you a message, or send one of your own!
 * [AbsoluteLabs](https://absolutelabs.io/) - Reach wallets with custom flows
-* [Hiolder](https://www.holder.xyz/) - Holder is a web3 CRM and customer engagement platform for the tokenized world.
+* [Holder](https://www.holder.xyz/) - Holder is a web3 CRM and customer engagement platform for the tokenized world.
 * [IDENTI3](https://ethglobal.com/showcase/identi3-u8rs7) - Communicate with your subscription customers
 * [Supercluster](https://ethglobal.com/showcase/supercluster-t9x45) - Message NFT owners
 * [Ticketing](https://ethglobal.com/showcase/decentralized-ticketing-platform-ok5fe) - Broadcast messages to all attendees
@@ -83,7 +83,7 @@ Create a PR, join the list, get visibility 👀
 ## Automation 🤖
 
 * [Chainjet](https://chainjet.io/) - XMTP at the heart of every automation
-* [ChromeExt](https://ethglobal.com/showcase/chromeext-chatonweb3withtokengatingcontent-mq751) - XMTP web3 chat improvement that with chrome notification, token gating and NFT unlocking widget in chat box ;)
+* [ChromeExt](https://ethglobal.com/showcase/chromeext-chatonweb3withtokengatingcontent-mq751) - XMTP web3 chat improvement with chrome notification, token gating and NFT unlocking widget in chat box ;)
 * [Relay](https://ethglobal.com/showcase/relay-85njt) - Zapier for web3. Automate notifications on EVM compatible chains for triggers like specific prices, liquidation percentages, changes in owners, and more. Get a notification to your XMTP account when the trigger crosses your desired value.
 * [Roll a Mate](https://ethglobal.com/showcase/roll-a-mate-ob574) - Send money on Ethereum Mainnet with transfers costing from zero to 4 cents
 * [AirTracker](https://ethglobal.com/showcase/airtracker-8qstn) - Airtracker brings decentralized asset tracking into the mainstream by using XMTP messaging to notify users about significant changes in their assets’ locations.
