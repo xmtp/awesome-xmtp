@@ -55,6 +55,7 @@ Create a PR, join the list, get visibility 👀
 
 ## Gaming 🎮
 
+* [Cosmic Cowboys](https://github.com/stevedylandev/cosmic-cowboys-contracts) - A dynamic on-chain game that involves interacting with stranded space cowboy NPCs, powered by AI and ERC-6551
 * [P2P Games](https://ethglobal.com/showcase/p2p-games-19vqx) - P2P Gaming platform, find and play by using ENS or Eth address
 * [FriendShape](https://ethglobal.com/showcase/friendshape-hyrna) - FriendShape is a game in which players connect with each other to form edges in a social graph, in order to draw a graph that represents a picture that they are given as a target.
 * [GameJutsu](https://ethglobal.com/showcase/gamejutsu-0u4en) - Gaming framework taking care of the on-chain / off-chain communication balance
