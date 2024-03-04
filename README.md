@@ -101,6 +101,8 @@ Create a PR, join the list, get visibility 👀
 
 ## Chat Frames 🖼️
 * [Red Envelope](https://devfolio.co/projects/red-envelope-fe1a): A fast, gamified, and socially engaging onchain token gifting experience using Frames on XMTP and powered by FHE on Inco Network.
+* [Rock Paper Scisors](https://xmtp-frame-rock-paper-scissors.vercel.app/): The game we all know made compatible with Open Frames and XMTP for messaging app. Challenge your friends in this 1:1 game.
+* [XMTP Polls](https://github.com/xmtp-labs/fc-polls): Polls frames adapted from the original farcaster Polls but made compatible with OpenFrames and XMTP.
 
 ## Group Chat 👨‍👩‍👧‍👧
 * [Papa Base](https://devfolio.co/projects/papabase-7d6b): Making public goods donations accessible to everyone through crypto and fiat. Donate, receive an NFT, and access a token-gated chat with the project builders and donors to receive automated updates.
