@@ -42,6 +42,7 @@ Create a PR, join the list, get visibility 👀
 
 ## DeFi 🏦
 
+* [XMTPay](https://devfolio.co/projects/xmtpay-bf3e): Make and request payments over XMTP. Chat and split bills on any chain with integrated alerts for suspicious addresses.
 * [Coinbase Wallet](https://www.coinbase.com/wallet) - Your key to the world of crypto. Manage all of your crypto, NFTs, multiple wallets, and messages in one place. 
 * [W3NPAY](https://ethglobal.com/showcase/w3npay-d7rk8) - Web3 Venmo - Send and request crypto payments to people that have an EVM wallet.
 * [CompliSend](https://ethglobal.com/showcase/complisend-3j0jx) - KYC erc20/721 transfer with messaging and zk reporting to an auditor
@@ -88,11 +89,18 @@ Create a PR, join the list, get visibility 👀
 * [Relay](https://ethglobal.com/showcase/relay-85njt) - Zapier for web3. Automate notifications on EVM compatible chains for triggers like specific prices, liquidation percentages, changes in owners, and more. Get a notification to your XMTP account when the trigger crosses your desired value.
 * [Roll a Mate](https://ethglobal.com/showcase/roll-a-mate-ob574) - Send money on Ethereum Mainnet with transfers costing from zero to 4 cents
 * [AirTracker](https://ethglobal.com/showcase/airtracker-8qstn) - Airtracker brings decentralized asset tracking into the mainstream by using XMTP messaging to notify users about significant changes in their assets’ locations.
-
+* [XMTPHelper](https://devfolio.co/projects/truth-467c): XMTPHelper is a plugin that enables any user to receive alerts they're interested in, query on-chain data and register assets as IP.
 
 ## DAOs 👩‍💻
 * [DAO](https://snapshot.org/) - Snapshot is an off-chain voting platform that allows DAOs, DeFi protocols, or NFT communities to participate in the decentralized governance easily and without gas fees.
 
+  
 ## Developers 👩‍💻
 * [RemoteEOA](https://ethglobal.com/showcase/remoteeoa-ocgsq) - Remote Control of EOA wallets allow 3rd parties to script and manage wallets on your behalf without ever exposing private keys.
 * [Scrubbie](https://xmtp.org/blog/eth-new-york) - Scrubbie enhances messaging experiences by allowing XMTP clients to filter spam through a specialized API.
+
+## Chat Frames 🖼️
+* [Red Envelope](https://devfolio.co/projects/red-envelope-fe1a): A fast, gamified, and socially engaging onchain token gifting experience using Frames on XMTP and powered by FHE on Inco Network.
+
+## Group Chat 👨‍👩‍👧‍👧
+* [Papa Base](https://devfolio.co/projects/papabase-7d6b): Making public goods donations accessible to everyone through crypto and fiat. Donate, receive an NFT, and access a token-gated chat with the project builders and donors to receive automated updates.
