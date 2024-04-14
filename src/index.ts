@@ -29,6 +29,7 @@ run(async (context: HandlerContext) => {
     "3": "AI Docs Bot docs.hi.xmtp.eth : Chat with the XMTP Docs through an API with a GPT powered bot. Powered by Kapa.",
     "4": "GeneralStore Bot store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
     "5": "Wordle a Day Bot dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
+    "6": "Starter Bot: 0x3E4EFc2B2Ee3fCE01433F2E75021eeACd62CA94f : A bot that simply echoes what you send it.",
   };
   if (!step) {
     // send the first message
@@ -39,7 +40,7 @@ run(async (context: HandlerContext) => {
       `Welcome to the Awesome XMTP Bot. Explore the world of XMTP bots and frames! 🤖🖼️`
     );
     await context.reply(
-      `Bots:\n\n${fullBotDescriptions}\n\nCheck out the repositories in Awesome XMTP https://github.com/xmtp/awesome-xmtp`
+      `Bots:\n\n${fullBotDescriptions}\n\nCheck out the repositories in Awesome XMTP https://github.com/xmtp/awesome-xmtp and give the repo a star 🤩`
     );
 
     inMemoryCache.set(senderAddress, 1);

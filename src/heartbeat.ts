@@ -56,7 +56,6 @@ export const checkHeartbeat = async () => {
 export const sendHeartbeat = async (key: string) => {
   try {
     let wallet = new Wallet(key);
-    console.log(key, wallet.address);
     const client = await Client.create(wallet, {
       env: process.env.XMTP_ENV as any,
     });
@@ -65,7 +64,9 @@ export const sendHeartbeat = async (key: string) => {
       process.env.PUBLIC_BOT_ADDRESS as string
     );
     await conversation.send("Heartbeat");
-    if (process.env.DEBUG === "true") console.log("DEBUG MODE: Heartbeat sent");
+    if (process.env.DEBUG === "true")
+      console.log("DEBUG MODE: Heartbeat sent wth ", wallet.address);
+    console.log("Heartbeat sent wth ", wallet.address);
   } catch (error) {
     console.log("Error sending heartbeat:", error);
   }
