@@ -5,9 +5,11 @@ If the bot does not receive a heartbeat message for more than 2 minutes, it will
 import { Client } from "@xmtp/xmtp-js";
 import { Wallet } from "ethers";
 
-export const INTERVAL = process.env.DEBUG === "true" ? 10000 : 60000;
-export let latestHeartbeat: number | null = null;
-export const FAILS_BEFORE_RESTART = 2;
+const INTERVAL = process.env.DEBUG === "true" ? 10000 : 300000; // 5 minutes'
+const DELAY = INTERVAL * 1.5;
+
+let latestHeartbeat: number | null = null;
+const FAILS_BEFORE_RESTART = 2;
 
 export const round = (num: number) => {
   return Math.round(num * 100) / 100;
@@ -33,7 +35,7 @@ export const checkHeartbeat = async () => {
     return false;
   }
   const millisecondsSinceLastSync = new Date().getTime() - latestHeartbeat;
-  if (millisecondsSinceLastSync > INTERVAL * 2) {
+  if (millisecondsSinceLastSync > DELAY) {
     console.log(
       `Heartbeat updated: ${round(
         millisecondsSinceLastSync / 60000
@@ -53,6 +55,7 @@ export const checkHeartbeat = async () => {
 
 export const sendHeartbeat = async (key: string) => {
   let wallet = new Wallet(key);
+  console.log(key, wallet.address);
   const client = await Client.create(wallet, {
     env: process.env.XMTP_ENV as any,
   });

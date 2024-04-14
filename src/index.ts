@@ -23,27 +23,27 @@ run(async (context: HandlerContext) => {
     inMemoryCache.delete(senderAddress); // Reset the step for future interactions
     return;
   }
-
+  const botInfo = {
+    "1": "Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Zora and mint through daily messages.",
+    "2": "Faucet Bot faucetbot.eth : Delivers Faucet funds to devs on Testnet. Powered by Learnweb3.",
+    "3": "AI Docs Bot docs.hi.xmtp.eth : Chat with the XMTP Docs through an API with a GPT powered bot. Powered by Kapa.",
+    "4": "GeneralStore Bot store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
+    "5": "Wordle a Day Bot dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
+  };
   if (!step) {
     // send the first message
+    const fullBotDescriptions = Object.entries(botInfo)
+      .map(([key, value]) => `${key}. ${value}`)
+      .join("\n\n");
     await context.reply(
-      "Welcome to the XMTP Bots and Frames Info Service. Select a bot to get more information:\n\n1. Trending Mints Bot\n2. Faucet Bot\n3. AI Docs Bot\n4. GeneralStore Bot\n5. Wordle a Day Bot\n6. AI GPT Bot\n7. POAP Bot\n8. Notification Api Bot\n9. Defi Bot\n\n✍️ (reply with the number of the bot you're interested in)"
+      `Welcome to the Awesome XMTP Bot. Explore the world of XMTP bots and frames! 🤖🖼️`
+    );
+    await context.reply(
+      `Bots:\n\n${fullBotDescriptions}\n\nCheck out the repositories in Awesome XMTP https://github.com/xmtp/awesome-xmtp`
     );
 
     inMemoryCache.set(senderAddress, 1);
   } else if (step === 1) {
-    const botInfo = {
-      "1": "Trending Mints Bot (`trendingmints.eth`): Subscribe to get real-time trending mints in Base through Zora and mint through daily messages. Uses [Mint Frame](https://github.com/fabriguespe/mint-frame/tree/main).",
-      "2": "Faucet Bot (`faucetbot.eth`): Delivers Faucet funds to devs on Testnet. Powered by [Learnweb3](https://learnweb3.io/faucets/). Uses [Tx Receipt Frame](https://github.com/fabriguespe/faucet-tx-frame).",
-      "3": "AI Docs Bot (`docs.hi.xmtp.eth`): Chat with the XMTP [Docs](https://xmtp.org/docs/introduction) through an API with a GPT powered bot. Powered by [Kapa](https://kapa.ai/).",
-      "4": "GeneralStore Bot (`store.hi.xmtp.eth`): Order goodies in hackathons.",
-      "5": "Wordle a Day Bot (`dailywordle.eth`): Play daily to the WORDLE game by [du8](https://warpcast.com/ds8/0x2d31015a) through messaging.",
-      "6": "AI GPT Bot: GPT Powered bot for engaging conversations. TBD",
-      "7": "POAP Bot: Delivering a POAP through messaging. TBD",
-      "8": "Notification Api Bot: Intermediary subscriber bot for notifications. TBD",
-      "9": "Defi Bot: Prompt to defi transaction frame Bot. TBD",
-    };
-
     //@ts-ignore
     const selectedBotInfo = botInfo[content];
     if (!selectedBotInfo) {
