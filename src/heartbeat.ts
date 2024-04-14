@@ -1,4 +1,4 @@
-/* This file is a utility for the heartbeat mechanism. 
+/* New: This file is a utility for the heartbeat mechanism. 
 It is used to send a heartbeat message to the bot every minute.
 If the bot does not receive a heartbeat message for more than 2 minutes, it will restart the process. */
 
@@ -64,9 +64,7 @@ export const sendHeartbeat = async (key: string) => {
       process.env.PUBLIC_BOT_ADDRESS as string
     );
     await conversation.send("Heartbeat");
-    if (process.env.DEBUG === "true")
-      console.log("DEBUG MODE: Heartbeat sent wth ", wallet.address);
-    console.log("Heartbeat sent wth ", wallet.address);
+    if (process.env.DEBUG === "true") console.log("DEBUG MODE: Heartbeat sent");
   } catch (error) {
     console.log("Error sending heartbeat:", error);
   }
