@@ -1,19 +1,12 @@
 import "dotenv/config";
-import { Wallet } from "ethers";
 import HandlerContext from "./lib/handler-context";
 import run from "./lib/runner.js";
 const inMemoryCache = new Map<string, number>();
 
 run(async (context: HandlerContext) => {
   const { message } = context;
-  const wallet = new Wallet(process.env.KEY!);
 
   const { content, senderAddress } = message;
-
-  if (senderAddress?.toLowerCase() === wallet.address?.toLowerCase()) {
-    // safely ignore this message
-    return;
-  }
 
   // get the current step we're in
   const step = inMemoryCache.get(senderAddress);
