@@ -15,8 +15,8 @@ run(async (context: HandlerContext) => {
     "🚀 Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Zora and mint through daily messages.",
     "💧 Faucet Bot faucetbot.eth : Delivers Faucet funds to devs on Testnet. Powered by Learnweb3.",
     "🤖 AI Docs Bot docs.hi.xmtp.eth : Chat with the XMTP Docs through an API with a GPT powered bot. Powered by Kapa.",
-    "🛍️ GeneralStore Bot store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
-    "📅 Wordle a Day Bot dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
+    "🛍️ TheGeneralStore store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
+    "📅 Wordle a Day dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
     "🔊 Starter Bot: echo.hi.xmtp.eth : A bot that simply echoes what you send it.",
     "🌟 Awesome Bot: awesome.hi.xmtp.eth : Learn everything about frames and bots.",
     "💬 Gpt Bot: gpt.hi.xmtp.eth : Chat with an AI powered bot.",
@@ -31,6 +31,7 @@ run(async (context: HandlerContext) => {
     "🌿 Mint Frame: https://trending-mints.vercel.app/?chain=base&a=0x87c082a2e681f4d2da35883a1464954d59c35d3a&c=790",
     "💼 Transactions Frame: https://tx-receipt.vercel.app/?networkId=linea_goerli&txLink=https://goerli.lineascan.build/tx/0x2d49400176fb1d4a7a36edf0b60aaa43b1432bf551b26c5517181f0ea42b1a07",
   ];
+
   const testingBotsInfo = [
     "Starter Bot: A basic bot for initial testing. 0x61175cdB3cdC0459896e10Cce0A4Dab49FD69702",
     "Starter-Cron Bot: Tests scheduled messages. 0x4e58F676Fd4a4a6F9A99C79b3ddd2a2c133cE1C4",
