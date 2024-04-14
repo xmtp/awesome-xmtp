@@ -52,6 +52,14 @@ run(async (context: HandlerContext) => {
     "Mint Frame: https://trending-mints.vercel.app/?chain=base&a=0x87c082a2e681f4d2da35883a1464954d59c35d3a&c=790",
     "Transaction Frame: https://tx-receipt.vercel.app/?networkId=linea_goerli&txLink=https://goerli.lineascan.build/tx/0x2d49400176fb1d4a7a36edf0b60aaa43b1432bf551b26c5517181f0ea42b1a07",
   ];
+  const testingBotsInfo = {
+    starter:
+      "Starter Bot: A basic bot for initial testing. 0x61175cdB3cdC0459896e10Cce0A4Dab49FD69702",
+    "starter-cron":
+      "Starter-Cron Bot: Tests scheduled messages. 0x4e58F676Fd4a4a6F9A99C79b3ddd2a2c133cE1C4",
+    "starter-heartbeat":
+      "Starter-Heartbeat Bot: Tests the heartbeat and reliability of the system. 0x3E4EFc2B2Ee3fCE01433F2E75021eeACd62CA94f",
+  };
 
   if (!step) {
     const fullBotDescriptions = Object.entries(botInfo)
@@ -61,6 +69,12 @@ run(async (context: HandlerContext) => {
       `Welcome to the Awesome XMTP Bot. Explore bots and frames! 🤖🖼️`
     );
     await context.reply(`Bots:\n\n${fullBotDescriptions}`);
+
+    const testingBotsDescriptions = Object.entries(testingBotsInfo)
+      .map(([, value]) => `- ${value}`)
+      .join("\n");
+
+    await context.reply(`Testing Bots:\n\n${testingBotsDescriptions}`);
 
     const framesMessage =
       `Also, explore these Frames compatible with Open Frames 🖼️:\n\n` +
