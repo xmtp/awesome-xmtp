@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { Wallet } from "ethers";
-import HandlerContext from "./handler-context";
-import run from "./runner.js";
+import HandlerContext from "./lib/handler-context";
+import run from "./lib/runner.js";
 const inMemoryCache = new Map<string, number>();
 
 run(async (context: HandlerContext) => {
@@ -48,7 +48,7 @@ run(async (context: HandlerContext) => {
     "Openframedl Frame: https://openframedl.vercel.app/",
     "Zora Magic Machine Frame: https://paragraph.xyz/@zora/zora-magic-machine/",
     "Rock Paper Scissors Frame: https://xmtp-frame-rock-paper-scissors.vercel.app/",
-    "FC Polls: https://fc-polls.vercel.app/",
+    "FC Polls: https://fc-polls.vercel.app/polls/87b1ed3f-5f86-479a-acc7-727943eecfe3/",
     "Mint Frame: https://trending-mints.vercel.app/?chain=base&a=0x87c082a2e681f4d2da35883a1464954d59c35d3a&c=790",
     "Transaction Frame: https://tx-receipt.vercel.app/?networkId=linea_goerli&txLink=https://goerli.lineascan.build/tx/0x2d49400176fb1d4a7a36edf0b60aaa43b1432bf551b26c5517181f0ea42b1a07",
   ];
