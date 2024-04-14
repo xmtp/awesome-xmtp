@@ -17,14 +17,14 @@ run(async (context: HandlerContext) => {
     return;
   }
   const botInfo = {
-    "1": "Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Zora and mint through daily messages.",
-    "2": "Faucet Bot faucetbot.eth : Delivers Faucet funds to devs on Testnet. Powered by Learnweb3.",
-    "3": "AI Docs Bot docs.hi.xmtp.eth : Chat with the XMTP Docs through an API with a GPT powered bot. Powered by Kapa.",
-    "4": "GeneralStore Bot store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
-    "5": "Wordle a Day Bot dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
-    "6": "Starter Bot: echo.hi.xmtp.eth : A bot that simply echoes what you send it.",
-    "7": "Awesome Bot: awesome.hi.xmtp.eth : Learn evetything about frames and bots.",
-    "8": "Gpt Bot: gpt.hi.xmtp.eth : Chat with an AI powered bot.",
+    "🚀 Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Zora and mint through daily messages.",
+    "💧 Faucet Bot faucetbot.eth : Delivers Faucet funds to devs on Testnet. Powered by Learnweb3.",
+    "🤖 AI Docs Bot docs.hi.xmtp.eth : Chat with the XMTP Docs through an API with a GPT powered bot. Powered by Kapa.",
+    "🛍️ GeneralStore Bot store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
+    "📅 Wordle a Day Bot dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
+    "🔊 Starter Bot: echo.hi.xmtp.eth : A bot that simply echoes what you send it.",
+    "🌟 Awesome Bot: awesome.hi.xmtp.eth : Learn everything about frames and bots.",
+    "💬 Gpt Bot: gpt.hi.xmtp.eth : Chat with an AI powered bot.",
   };
 
   const frameUrls = [
@@ -48,7 +48,7 @@ run(async (context: HandlerContext) => {
   if (!step) {
     const fullBotDescriptions = Object.entries(botInfo)
       .map(([, value]) => `- ${value}`)
-      .join("\n");
+      .join("\n\n");
     await context.reply(
       `Welcome to the Awesome XMTP Bot. Explore bots and frames from the ecosystem. Imagine it as the app store for chat apps 🤖🖼️`
     );
