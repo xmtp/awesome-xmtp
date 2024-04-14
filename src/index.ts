@@ -59,7 +59,7 @@ run(async (context: HandlerContext) => {
       .map(([, value]) => `- ${value}`)
       .join("\n");
     await context.reply(
-      `Welcome to the Awesome XMTP Bot. Explore bots and frames! 🤖🖼️`
+      `Welcome to the Awesome XMTP Bot. Explore bots and frames from the ecosystem. Imagine it as the app store for chat apps 🤖🖼️`
     );
     await context.reply(`Bots:\n\n${fullBotDescriptions}`);
 
