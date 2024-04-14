@@ -24,18 +24,9 @@ run(async (context: HandlerContext) => {
     "5": "Wordle a Day Bot dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
     "6": "Starter Bot: echo.hi.xmtp.eth : A bot that simply echoes what you send it.",
     "7": "Awesome Bot: awesome.hi.xmtp.eth : Learn evetything about frames and bots.",
+    "8": "Gpt Bot: gpt.hi.xmtp.eth : Chat with an AI powered bot.",
   };
 
-  const framesInfo = {
-    "1": "Farguessr Frame: Guess the distance between 2 countries",
-    "2": "Openframedl Frame: Wordle in a frame",
-    "3": "Zora Magic Machine Frame: Zora newsletter",
-    "4": "Rock Paper Scissors Frame: Rock paper scissors game",
-    "5": "FC Polls: Farcaster Polls working on messaging apps",
-    "6": "Mint Frame: Frame for redirecting users to mint on Zora",
-    "7": "Transaction Frame: Frame that acts a transaction receipt",
-    "8": "Gitcoin Grants: Grant that showcases Gitcoin grants",
-  };
   const frameUrls = [
     "Farguessr Frame: https://farguessr.vercel.app/",
     "Openframedl Frame: https://openframedl.vercel.app/",
