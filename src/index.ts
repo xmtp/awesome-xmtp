@@ -69,6 +69,8 @@ run(async (context: HandlerContext) => {
     await sendBotAndFrameInfo();
   } else {
     // If the user sends another message, offer to show the list again
-    await context.reply("Send 'list' to see the bot and frame options again.");
+    await context.reply(
+      "👋 Feel free to type 'list' anytime you want to dive back into the wonders of the XMTP ecosystem! 🌌"
+    );
   }
 });
