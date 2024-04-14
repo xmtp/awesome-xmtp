@@ -1,0 +1,74 @@
+/* This file is a utility for the heartbeat mechanism. 
+It is used to send a heartbeat message to the bot every minute.
+If the bot does not receive a heartbeat message for more than 2 minutes, it will restart the process. */
+
+import { Client } from "@xmtp/xmtp-js";
+import { Wallet } from "ethers";
+
+export const INTERVAL = process.env.DEBUG === "true" ? 10000 : 60000;
+export let latestHeartbeat: number | null = null;
+export const FAILS_BEFORE_RESTART = 2;
+
+export const round = (num: number) => {
+  return Math.round(num * 100) / 100;
+};
+
+export const writeHeartbeat = async (debugMessageCount: number) => {
+  if (process.env.DEBUG === "true") {
+    if (debugMessageCount > FAILS_BEFORE_RESTART) {
+      console.log(
+        "DEBUG MODE: Db not updated with last sync. Fails siletnly.",
+        debugMessageCount
+      );
+      return false;
+    }
+  }
+  latestHeartbeat = new Date().getTime();
+  return true;
+};
+
+export const checkHeartbeat = async () => {
+  if (latestHeartbeat === null) {
+    console.log("No last heartbeat found.");
+    return false;
+  }
+  const millisecondsSinceLastSync = new Date().getTime() - latestHeartbeat;
+  if (millisecondsSinceLastSync > INTERVAL * 2) {
+    console.log(
+      `Heartbeat updated: ${round(
+        millisecondsSinceLastSync / 60000
+      )} minutes since last sync. RESTARTING PROCESS.`
+    );
+    return true;
+  } else {
+    if (process.env.DEBUG === "true")
+      console.log(
+        `DEBUG MODE: No need to update heartbeat: ${round(
+          millisecondsSinceLastSync / 60000
+        )} minutes since last sync.`
+      );
+    return false;
+  }
+};
+
+export const sendHeartbeat = async (key: string) => {
+  let wallet = new Wallet(key);
+  const client = await Client.create(wallet, {
+    env: process.env.XMTP_ENV as any,
+  });
+
+  const conversation = await client.conversations.newConversation(
+    process.env.PUBLIC_BOT_ADDRESS as string
+  );
+  await conversation.send("Heartbeat");
+  if (process.env.DEBUG === "true") console.log("DEBUG MODE: Heartbeat sent");
+};
+
+if (process.env.HEARTBEAT_BOT_KEY) {
+  console.log("Heartbeat interval set to", round(INTERVAL / 60000), "minutes");
+  setInterval(async () => {
+    sendHeartbeat(process.env.HEARTBEAT_BOT_KEY as string);
+    const shouldRestart = await checkHeartbeat();
+    if (shouldRestart) process.exit(1);
+  }, INTERVAL);
+}

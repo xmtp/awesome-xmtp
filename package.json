@@ -1,0 +1,22 @@
+{
+  "name": "xmtp-generalstore-bot",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start:watch": "nodemon dist/src/index.js",
+    "start": "node dist/src/index.js"
+  },
+  "devDependencies": {
+    "@parcel/watcher": "^2.4.1",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@xmtp/grpc-api-client": "^0.2.4",
+    "@xmtp/xmtp-js": "^11.2.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2"
+  },
+  "packageManager": "yarn@4.1.1"
+}
