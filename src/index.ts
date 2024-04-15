@@ -43,7 +43,7 @@ run(async (context: HandlerContext) => {
       `Also, explore these Frames compatible with Open Frames 🖼️:\n\n` +
       frameUrls.map((url) => `- ${url}`).join("\n\n") +
       `\n\nDiscover more frames in Awesome Open Frames https://github.com/open-frames/awesome-open-frames ✨.` +
-      `\n\n or discover more bots in Awesome XMTP https://github.com/xmtp/awesome-xmtp ✨.`;
+      `\n\nor discover more bots in Awesome XMTP https://github.com/xmtp/awesome-xmtp ✨.`;
     await context.reply(framesMessage);
   };
 
