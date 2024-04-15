@@ -17,7 +17,7 @@ run(async (context: HandlerContext) => {
     "🤖 AI Docs Bot docs.hi.xmtp.eth : Chat with the XMTP Docs through an API with a GPT powered bot. Powered by Kapa.",
     "🛍️ TheGeneralStore store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
     "📅 Wordle a Day dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
-    "🔊 Starter Bot: echo.hi.xmtp.eth : A bot that simply echoes what you send it.",
+    //"🔊 Starter Bot: starter.hi.xmtp.eth : A bot that simply echoes what you send it.",
     "🌟 Awesome Bot: awesome.hi.xmtp.eth : Learn everything about frames and bots.",
     "💬 Gpt Bot: gpt.hi.xmtp.eth : Chat with an AI powered bot.",
   ];
@@ -32,25 +32,12 @@ run(async (context: HandlerContext) => {
     "💼 Transactions Frame: https://tx-receipt.vercel.app/?networkId=linea_goerli&txLink=https://goerli.lineascan.build/tx/0x2d49400176fb1d4a7a36edf0b60aaa43b1432bf551b26c5517181f0ea42b1a07",
   ];
 
-  const testingBotsInfo = [
-    "Starter Bot: A basic bot for initial testing. 0x61175cdB3cdC0459896e10Cce0A4Dab49FD69702",
-    "Starter-Cron Bot: Tests scheduled messages. 0x4e58F676Fd4a4a6F9A99C79b3ddd2a2c133cE1C4",
-    "Starter-Heartbeat Bot: Tests the heartbeat and reliability of the system. 0x3E4EFc2B2Ee3fCE01433F2E75021eeACd62CA94f",
-  ];
-
   // Function to send bot and frame information
   const sendBotAndFrameInfo = async () => {
     const fullBotDescriptions = botInfo
       .map((value) => `- ${value}`)
       .join("\n\n");
     await context.reply(`Bots 🤖:\n\n${fullBotDescriptions}`);
-
-    const testingBotsDescriptions = testingBotsInfo
-      .map((value) => `- ${value}`)
-      .join("\n\n");
-    await context.reply(
-      `Testing Bots (temporary)👨🏼‍💻:\n\n${testingBotsDescriptions}`
-    );
 
     const framesMessage =
       `Also, explore these Frames compatible with Open Frames 🖼️:\n\n` +
