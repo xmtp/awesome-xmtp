@@ -59,7 +59,7 @@ run(async (context: HandlerContext) => {
       `Discover more frames in Awesome Open Frames https://github.com/open-frames/awesome-open-frames ✨.`
     );
     await context.reply(
-        `\n\nwor discover more bots in Awesome XMTP https://github.com/xmtp/awesome-xmtp ✨.`;
+        `Discover more bots in Awesome XMTP https://github.com/xmtp/awesome-xmtp ✨.`;
     );
   };
 
