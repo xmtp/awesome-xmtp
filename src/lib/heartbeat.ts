@@ -4,6 +4,7 @@ If the bot does not receive a heartbeat message for more than 2 minutes, it will
 
 import { Client } from "@xmtp/xmtp-js";
 import { Wallet } from "ethers";
+import cron from "node-cron";
 
 const INTERVAL = process.env.DEBUG === "true" ? 10000 : 300000; // 5 minutes'
 const DELAY = INTERVAL * 1.5;
@@ -53,9 +54,9 @@ export const checkHeartbeat = async () => {
   }
 };
 
-export const sendHeartbeat = async (key: string) => {
+export const sendHeartbeat = async () => {
   try {
-    let wallet = new Wallet(key);
+    let wallet = new Wallet(process.env.HEARTBEAT_BOT_KEY as string);
     const client = await Client.create(wallet, {
       env: process.env.XMTP_ENV as any,
     });
@@ -64,16 +65,29 @@ export const sendHeartbeat = async (key: string) => {
       process.env.PUBLIC_BOT_ADDRESS as string
     );
     await conversation.send("Heartbeat");
+
     if (process.env.DEBUG === "true") console.log("DEBUG MODE: Heartbeat sent");
   } catch (error) {
     console.log("Error sending heartbeat:", error);
   }
 };
-
+export const scheduleHeartbeat = () => {
+  console.log("Scheduling heartbeat.");
+  cron.schedule(
+    "*/5 * * * *",
+    () => {
+      sendHeartbeat();
+    },
+    {
+      runOnInit: false,
+    }
+  );
+};
 if (process.env.HEARTBEAT_BOT_KEY) {
+  scheduleHeartbeat();
   console.log("Heartbeat interval set to", round(INTERVAL / 60000), "minutes");
   setInterval(async () => {
-    sendHeartbeat(process.env.HEARTBEAT_BOT_KEY as string);
+    sendHeartbeat();
     const shouldRestart = await checkHeartbeat();
     if (shouldRestart) process.exit(1);
   }, INTERVAL);
