@@ -22,6 +22,18 @@ run(async (context: HandlerContext) => {
     "💬 Gpt Bot: gpt.hi.xmtp.eth : Chat with an AI powered bot.",
   ];
 
+  const testingBotsInfo = [
+    "Starter Bot: A basic bot for initial testing. 0x61175cdB3cdC0459896e10Cce0A4Dab49FD69702",
+    "Starter-Cron Bot: Tests scheduled messages. 0x4e58F676Fd4a4a6F9A99C79b3ddd2a2c133cE1C4",
+    "Starter-Heartbeat Bot: Tests the heartbeat and reliability of the system. 0x3E4EFc2B2Ee3fCE01433F2E75021eeACd62CA94f",
+  ];
+  const testingBotsDescriptions = testingBotsInfo
+    .map((value) => `- ${value}`)
+    .join("\n\n");
+  await context.reply(
+    `Testing Bots (temporary)👨🏼‍💻:\n\n${testingBotsDescriptions}`
+  );
+
   const frameUrls = [
     "🌍 Farguessr : https://farguessr.vercel.app/",
     "🖼️ Wordle : https://openframedl.vercel.app/",
