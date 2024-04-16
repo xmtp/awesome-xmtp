@@ -12,7 +12,7 @@ run(async (context: HandlerContext) => {
   const step = inMemoryCache.get(senderAddress);
 
   const botInfo = [
-    "🚀 Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Zora and mint through daily messages.",
+    "🚀 Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Airstack and mint through daily messages.",
     "💧 Faucet Bot faucetbot.eth : Delivers Faucet funds to devs on Testnet. Powered by Learnweb3.",
     "🤖 AI Docs Bot docs.hi.xmtp.eth : Chat with the XMTP Docs through an API with a GPT powered bot. Powered by Kapa.",
     "🛍️ TheGeneralStore store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
