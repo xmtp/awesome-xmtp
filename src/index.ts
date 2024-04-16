@@ -27,7 +27,6 @@ run(async (context: HandlerContext) => {
     "🖼️ Wordle : https://openframedl.vercel.app/",
     "✨ Zora Magic Machine: https://paragraph.xyz/@zora/zora-magic-machine/",
     "✊ Rock Paper Scissors: https://xmtp-frame-rock-paper-scissors.vercel.app/",
-    "📊 FC Polls: https://fc-polls.vercel.app/polls/87b1ed3f-5f86-479a-acc7-727943eecfe3/",
     "🌿 Mint Frame: https://trending-mints.vercel.app/?chain=base&a=0x87c082a2e681f4d2da35883a1464954d59c35d3a&c=790",
     "💼 Transactions Frame: https://tx-receipt.vercel.app/?networkId=linea_goerli&txLink=https://goerli.lineascan.build/tx/0x2d49400176fb1d4a7a36edf0b60aaa43b1432bf551b26c5517181f0ea42b1a07",
   ];
@@ -43,7 +42,7 @@ run(async (context: HandlerContext) => {
       `Also, explore these Frames compatible with Open Frames 🖼️:\n\n` +
       frameUrls.map((url) => `- ${url}`).join("\n\n") +
       `\n\nDiscover more frames in Awesome Open Frames https://github.com/open-frames/awesome-open-frames ✨.` +
-      `\n\nor discover more bots in Awesome XMTP https://github.com/xmtp/awesome-xmtp ✨.`;
+      `\n\nwor discover more bots in Awesome XMTP https://github.com/xmtp/awesome-xmtp ✨.`;
     await context.reply(framesMessage);
   };
 
