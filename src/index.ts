@@ -1,15 +1,23 @@
 import "dotenv/config";
 import HandlerContext from "./lib/handler-context";
 import run from "./lib/runner.js";
-const inMemoryCache = new Map<string, number>();
-
+import { updateCacheForSender } from "./lib/cache.js";
+const inMemoryCache = new Map<
+  string,
+  { step: number; lastInteraction: number }
+>();
 run(async (context: HandlerContext) => {
   const { message } = context;
 
   const { content, senderAddress } = message;
 
-  // get the current step we're in
-  const step = inMemoryCache.get(senderAddress);
+  // Update or reset the cache entry for this sender
+  const { step, reset } = updateCacheForSender(
+    inMemoryCache,
+    senderAddress,
+    content,
+    ["stop", "unsubscribe", "cancel", "list"]
+  );
 
   const botInfo = [
     "🚀 Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Airstack and mint through daily messages.",
@@ -66,13 +74,14 @@ run(async (context: HandlerContext) => {
   };
 
   // If it's the user's first message or they ask for the list, show the bot and frame info
-  if (!step || content?.toLowerCase().includes("list")) {
-    if (!step) {
-      await context.reply(
-        `Welcome to the Awesome XMTP Bot. Explore bots and frames from the ecosystem. Imagine it as the app store for chat apps 🤖🖼️`
-      );
-      inMemoryCache.set(senderAddress, 1); // Set the step to indicate the user has interacted
-    }
+  if (!step) {
+    await context.reply(
+      `Welcome to the Awesome XMTP Bot. Explore bots and frames from the ecosystem. Imagine it as the app store for chat apps 🤖🖼️`
+    );
+    inMemoryCache.set(senderAddress, {
+      step: 1,
+      lastInteraction: Date.now(),
+    });
     await sendBotAndFrameInfo();
   } else {
     // If the user sends another message, offer to show the list again
