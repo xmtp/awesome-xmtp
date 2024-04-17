@@ -82,11 +82,13 @@ run(async (context: HandlerContext) => {
       step: 1,
       lastInteraction: Date.now(),
     });
+
     await sendBotAndFrameInfo();
   } else {
     // If the user sends another message, offer to show the list again
     await context.reply(
       "👋 Feel free to type 'list' anytime you want to dive back into the wonders of the XMTP ecosystem! 🌌"
     );
+    inMemoryCache.delete(senderAddress); // Reset the step for future interactions
   }
 });
