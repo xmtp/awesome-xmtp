@@ -8,16 +8,12 @@ const inMemoryCache = new Map<
 >();
 run(async (context: HandlerContext) => {
   const { message } = context;
-
   const { content, senderAddress } = message;
 
   // Update or reset the cache entry for this sender
-  const { step, reset } = updateCacheForSender(
-    inMemoryCache,
-    senderAddress,
-    content,
-    ["stop", "unsubscribe", "cancel", "list"]
-  );
+  const step = updateCacheForSender(inMemoryCache, senderAddress, content, [
+    "list",
+  ]);
 
   const botInfo = [
     "🚀 Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Airstack and mint through daily messages.",
@@ -39,20 +35,6 @@ run(async (context: HandlerContext) => {
     "💼 Transactions Frame: https://tx-receipt.vercel.app/?networkId=linea_goerli&txLink=https://goerli.lineascan.build/tx/0x2d49400176fb1d4a7a36edf0b60aaa43b1432bf551b26c5517181f0ea42b1a07",
   ];
 
-  if (senderAddress === "0x277C0dd35520dB4aaDDB45d4690aB79353D3368b") {
-    const testingBotsInfo = [
-      "Starter Bot: A basic bot for initial testing. 0x61175cdB3cdC0459896e10Cce0A4Dab49FD69702",
-      "Starter-Cron Bot: Tests scheduled messages. 0x4e58F676Fd4a4a6F9A99C79b3ddd2a2c133cE1C4",
-      "Starter-Heartbeat Bot: Tests the heartbeat and reliability of the system. 0x3E4EFc2B2Ee3fCE01433F2E75021eeACd62CA94f",
-    ];
-    const testingBotsDescriptions = testingBotsInfo
-      .map((value) => `- ${value}`)
-      .join("\n\n");
-    await context.reply(
-      `Testing Bots (temporary)👨🏼‍💻:\n\n${testingBotsDescriptions}`
-    );
-  }
-
   // Function to send bot and frame information
   const sendBotAndFrameInfo = async () => {
     const fullBotDescriptions = botInfo
@@ -72,9 +54,23 @@ run(async (context: HandlerContext) => {
       `Discover more bots in Awesome XMTP https://github.com/xmtp/awesome-xmtp ✨.`
     );
   };
-
+  console.log(step);
   // If it's the user's first message or they ask for the list, show the bot and frame info
   if (!step) {
+    if (senderAddress === "0x277C0dd35520dB4aaDDB45d4690aB79353D3368b") {
+      const testingBotsInfo = [
+        "Starter Bot: A basic bot for initial testing. 0x61175cdB3cdC0459896e10Cce0A4Dab49FD69702",
+        "Starter-Cron Bot: Tests scheduled messages. 0x4e58F676Fd4a4a6F9A99C79b3ddd2a2c133cE1C4",
+        "Starter-Heartbeat Bot: Tests the heartbeat and reliability of the system. 0x3E4EFc2B2Ee3fCE01433F2E75021eeACd62CA94f",
+      ];
+      const testingBotsDescriptions = testingBotsInfo
+        .map((value) => `- ${value}`)
+        .join("\n\n");
+      await context.reply(
+        `Testing Bots (temporary)👨🏼‍💻:\n\n${testingBotsDescriptions}`
+      );
+    }
+
     await context.reply(
       `Welcome to the Awesome XMTP Bot. Explore bots and frames from the ecosystem. Imagine it as the app store for chat apps 🤖🖼️`
     );
@@ -84,11 +80,11 @@ run(async (context: HandlerContext) => {
     });
 
     await sendBotAndFrameInfo();
-  } else {
-    // If the user sends another message, offer to show the list again
-    await context.reply(
+    return;
+  } else if (step == 1) {
+    context.reply(
       "👋 Feel free to type 'list' anytime you want to dive back into the wonders of the XMTP ecosystem! 🌌"
     );
-    inMemoryCache.delete(senderAddress); // Reset the step for future interactions
+    return;
   }
 });
