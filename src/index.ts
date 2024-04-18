@@ -32,7 +32,7 @@ run(async (context: HandlerContext) => {
     "✨ Zora Magic Machine: https://paragraph.xyz/@zora/zora-magic-machine/",
     "✊ Rock Paper Scissors: https://xmtp-frame-rock-paper-scissors.vercel.app/",
     "🌿 Mint Frame: https://trending-mints.vercel.app/?chain=base&a=0x87c082a2e681f4d2da35883a1464954d59c35d3a&c=790",
-    "💼 Transactions Frame: https://tx-receipt.vercel.app/?networkId=linea_goerli&txLink=https://goerli.lineascan.build/tx/0x2d49400176fb1d4a7a36edf0b60aaa43b1432bf551b26c5517181f0ea42b1a07",
+    "💼 Transactions Frame: https://tx-receipt.vercel.app/?txLink=https://sepolia.arbiscan.io/tx/0x82ce2f8321838d46c3365f688da701304aa4870934e4072f8d03e4eeee524f8d&networkLogo=https://cryptologos.cc/logos/arbitrum-arb-logo.png?v=026&networkName=Arbitrum-Sepolia&tokenName=arbETH&amount=0.01",
   ];
 
   // Function to send bot and frame information
