@@ -1,7 +1,7 @@
 import "dotenv/config";
 import HandlerContext from "./lib/handler-context";
 import run from "./lib/runner.js";
-import { updateCacheForSender } from "./lib/cache.js";
+
 const inMemoryCache = new Map<
   string,
   { step: number; lastInteraction: number }
@@ -10,10 +10,28 @@ run(async (context: HandlerContext) => {
   const { message } = context;
   const { content, senderAddress } = message;
 
-  // Update or reset the cache entry for this sender
-  const step = updateCacheForSender(inMemoryCache, senderAddress, content, [
-    "list",
-  ]);
+  const oneHour = 3600000; // Milliseconds in one hour.
+  const now = Date.now(); // Current timestamp.
+  const cacheEntry = inMemoryCache.get(senderAddress); // Retrieve the current cache entry for the sender.
+
+  let reset = false; // Flag to indicate if the interaction step has been reset.
+  const defaultStopWords = ["stop", "unsubscribe", "cancel"];
+  if (defaultStopWords.some((word) => content.toLowerCase().includes(word))) {
+    // If its a stop word
+    reset = true;
+  }
+
+  if (reset) {
+    inMemoryCache.delete(senderAddress);
+    //context.reply(deleteMsg);
+  }
+  // Update the cache entry with either reset step or existing step, and the current timestamp.
+  inMemoryCache.set(senderAddress, {
+    step: reset ? 0 : cacheEntry?.step ?? 0,
+    lastInteraction: now,
+  });
+  // Return the updated cache entry and the reset flag.
+  const step = inMemoryCache.get(senderAddress)!.step;
 
   const botInfo = [
     "🚀 Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Airstack and mint through daily messages.",
@@ -21,18 +39,8 @@ run(async (context: HandlerContext) => {
     "🤖 AI Docs Bot docs.hi.xmtp.eth : Chat with the XMTP Docs through an API with a GPT powered bot. Powered by Kapa.",
     "🛍️ TheGeneralStore store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
     "📅 Wordle a Day dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
-    //"🔊 Starter Bot: starter.hi.xmtp.eth : A bot that simply echoes what you send it.",
     "🌟 Awesome Bot: awesome.hi.xmtp.eth : Learn everything about frames and bots.",
     "💬 Gpt Bot: gpt.hi.xmtp.eth : Chat with an AI powered bot.",
-  ];
-
-  const frameUrls = [
-    "🌍 Farguessr : https://farguessr.vercel.app/",
-    "🖼️ Wordle : https://openframedl.vercel.app/",
-    "✨ Zora Magic Machine: https://paragraph.xyz/@zora/zora-magic-machine/",
-    "✊ Rock Paper Scissors: https://xmtp-frame-rock-paper-scissors.vercel.app/",
-    "🌿 Mint Frame: https://trending-mints.vercel.app/?chain=base&a=0x87c082a2e681f4d2da35883a1464954d59c35d3a&c=790",
-    "💼 Transactions Frame: https://tx-receipt.vercel.app/?txLink=https://sepolia.arbiscan.io/tx/0x82ce2f8321838d46c3365f688da701304aa4870934e4072f8d03e4eeee524f8d&networkLogo=https://cryptologos.cc/logos/arbitrum-arb-logo.png?v=026&networkName=Arbitrum-Sepolia&tokenName=arbETH&amount=0.01",
   ];
 
   // Function to send bot and frame information
@@ -42,21 +50,13 @@ run(async (context: HandlerContext) => {
       .join("\n\n");
     await context.reply(`Bots 🤖:\n\n${fullBotDescriptions}`);
 
-    const framesMessage =
-      `Also, explore these Frames compatible with Open Frames 🖼️:\n\n` +
-      frameUrls.map((url) => `- ${url}`).join("\n\n");
-    await context.reply(framesMessage);
-
-    await context.reply(
-      `Discover more frames in Awesome Open Frames https://github.com/open-frames/awesome-open-frames ✨.`
-    );
     await context.reply(
       `Discover more bots in Awesome XMTP https://github.com/xmtp/awesome-xmtp ✨.`
     );
   };
-  console.log(step);
   // If it's the user's first message or they ask for the list, show the bot and frame info
   if (!step) {
+    /*
     if (senderAddress === "0x277C0dd35520dB4aaDDB45d4690aB79353D3368b") {
       const testingBotsInfo = [
         "Starter Bot: A basic bot for initial testing. 0x61175cdB3cdC0459896e10Cce0A4Dab49FD69702",
@@ -69,7 +69,7 @@ run(async (context: HandlerContext) => {
       await context.reply(
         `Testing Bots (temporary)👨🏼‍💻:\n\n${testingBotsDescriptions}`
       );
-    }
+    }*/
 
     await context.reply(
       `Welcome to the Awesome XMTP Bot. Explore bots and frames from the ecosystem. Imagine it as the app store for chat apps 🤖🖼️`

@@ -760,6 +760,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redis/client@npm:^1.5.9":
+  version: 1.5.14
+  resolution: "@redis/client@npm:1.5.14"
+  dependencies:
+    cluster-key-slot: "npm:1.1.2"
+    generic-pool: "npm:3.9.0"
+    yallist: "npm:4.0.0"
+  checksum: 10c0/e8036ef1bce676891a492c198251238b3eb19eb7120ff974291f2a4e8cea97ac0f4aabbc0c59f40a923dcb43456e4e2a29b7287bd6a91535330e5e4631d9b176
+  languageName: node
+  linkType: hard
+
 "@scure/base@npm:~1.1.0, @scure/base@npm:~1.1.2":
   version: 1.1.6
   resolution: "@scure/base@npm:1.1.6"
@@ -840,6 +851,15 @@ __metadata:
     rxjs: "npm:^7.8.0"
     undici: "npm:^5.8.1"
   checksum: 10c0/857bba1e852d01a9f13485607a66e0ffc6755be0c3ac039583faa55701ae4fd4dde054bb70d9df0a82598905fa3273dee761ca6ae4ffc5a5248bc9d14e8d5874
+  languageName: node
+  linkType: hard
+
+"@xmtp/redis-persistence@npm:^0.0.4":
+  version: 0.0.4
+  resolution: "@xmtp/redis-persistence@npm:0.0.4"
+  dependencies:
+    "@redis/client": "npm:^1.5.9"
+  checksum: 10c0/296c53c3ae0a43ef86c9151b4a375acd8f9421d205fdf43dbd95e9b6d32a3db0804d02a44e9ff4aebfaf08f9b6c46c011ee28eaeb354f269632f74482b690515
   languageName: node
   linkType: hard
 
@@ -1136,6 +1156,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cluster-key-slot@npm:1.1.2":
+  version: 1.1.2
+  resolution: "cluster-key-slot@npm:1.1.2"
+  checksum: 10c0/d7d39ca28a8786e9e801eeb8c770e3c3236a566625d7299a47bb71113fb2298ce1039596acb82590e598c52dbc9b1f088c8f587803e697cb58e1867a95ff94d3
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^2.0.1":
   version: 2.0.1
   resolution: "color-convert@npm:2.0.1"
@@ -1398,6 +1425,13 @@ __metadata:
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
+  languageName: node
+  linkType: hard
+
+"generic-pool@npm:3.9.0":
+  version: 3.9.0
+  resolution: "generic-pool@npm:3.9.0"
+  checksum: 10c0/6b314d0d71170d5cbaf7162c423f53f8d6556b2135626a65bcdc03c089840b0a2f59eeb2d907939b8200e945eaf71ceb6630426f22d2128a1d242aec4b232aa7
   languageName: node
   linkType: hard
 
@@ -2535,6 +2569,7 @@ __metadata:
     "@parcel/watcher": "npm:^2.4.1"
     "@types/node-cron": "npm:^3"
     "@xmtp/grpc-api-client": "npm:^0.2.4"
+    "@xmtp/redis-persistence": "npm:^0.0.4"
     "@xmtp/xmtp-js": "npm:^11.2.1"
     dotenv: "npm:^16.4.5"
     ethers: "npm:^5.7.2"
@@ -2551,7 +2586,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yallist@npm:^4.0.0":
+"yallist@npm:4.0.0, yallist@npm:^4.0.0":
   version: 4.0.0
   resolution: "yallist@npm:4.0.0"
   checksum: 10c0/2286b5e8dbfe22204ab66e2ef5cc9bbb1e55dfc873bbe0d568aa943eb255d131890dfd5bf243637273d31119b870f49c18fcde2c6ffbb7a7a092b870dc90625a

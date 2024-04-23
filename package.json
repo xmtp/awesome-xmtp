@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@xmtp/grpc-api-client": "^0.2.4",
+    "@xmtp/redis-persistence": "^0.0.4",
     "@xmtp/xmtp-js": "^11.2.1",
     "dotenv": "^16.4.5",
     "ethers": "^5.7.2",
