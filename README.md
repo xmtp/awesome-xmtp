@@ -1,5 +1,7 @@
 # Awesome XMTP
 
+> This repo is an open frame and a bot. Message `awesome.hi.xmtp.eth` to talk to the repo.
+
 A list of awesome projects using XMTP. Create a PR, get visibility 👀. To learn more check XMTP's [website](https://xmtp.org/)
 
 ## Bots 🤖
@@ -9,13 +11,11 @@ A list of awesome projects using XMTP. Create a PR, get visibility 👀. To lear
 - 🤖 [AI Docs](https://github.com/fabriguespe/xmtp-ai-docs-bot) `docs.hi.xmtp.eth`: Chat with the XMTP [Docs](https://xmtp.org/docs/introduction) through an API with a GPT enabled bot.
 - 🛍️ [Store Bot](https://github.com/fabriguespe/xmtp-generalstore-bot) `store.hi.xmtp.eth`: Bot simulating an e-commerce store that can take orders and list items.
 - 📅 Wordle a Day [`dailywordle.eth`](https://converse.xyz/dm/dailywordle.eth): Play daily to the WORDLE game by [du8](https://warpcast.com/ds8/0x2d31015a) through messaging.
-- 🌟 [Awesome XMTP Bot](https://github.com/fabriguespe/xmtp-bots-awesome) `awesome.hi.xmtp.eth` : Talk to the awesome repo and learn all about XMTP ecosystem.
 - 🃏 [Crypto Joker](https://github.com/fabriguespe/xmtp-bot-gpt) `gpt.hi.xmtp.eth` : Get funny cypto jokes with an a GPT powered bot using Open AI APIs.
 
 Learn
 
-- [Your First Cool Bot 😎🤖](https://github.com/fabriguespe/your-first-cool-bot/)
-- Tip: Deploy them in [Railway](https://railway.app/) with Redis DB
+- [BotKit](https://github.com/xmtp/botkit/): Tooling for creating bots
 
 ## Frames 🖼️
 
