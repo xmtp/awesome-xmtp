@@ -33,7 +33,6 @@ All these Frames are compatible with the [Open Frames](https://github.com/open-f
 Learn
 
 - [Awesome Open Frames](https://github.com/open-frames/awesome-open-frames)
-- [Awesome Frames](https://github.com/davidfurlong/awesome-frames)
 - XMTP [Docs](https://xmtp.org/docs/build/frames)
 
 ## Messaging apps 💬
