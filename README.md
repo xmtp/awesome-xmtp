@@ -37,16 +37,13 @@ Learn
 
 ## Messaging apps 💬
 
-Open Frames and Bots are designed to be universally compatible, with support from a wide range of applications:
+Test the bots in messaging apps
 
 - [Converse](https://getconverse.app/): Own your conversations. Works with Frames (Transactions TBA)
 - [Coinbase Wallet](https://www.coinbase.com/wallet): Your key to the world of crypto. (Frame support TBA)
-- [Family](https://family.co/): Interacting with crypto has never been so simple (Frame support TBA)
-- [Converse Web](https://app.converse.xyz/): Own your conversations. On the web(Transactions TBA)
-- [xmtp.chat](https://xmtp.chat/): XMTP web app messaging client that renders Frames (Transactions TBA)
-- [dev-inbox](https://github.com/xmtp/dev-inbox/): Dev focused messaging client that renders Frames (Transactions TBA)
+- [dev-inbox](https://dev-dev-inbox.vercel.app/): Dev focused messaging client that renders Frames (Transactions TBA) (dev network)
 
-## Identities 🥷🏻
+## Identities
 
 ![](https://github.com/xmtp/awesome-xmtp/assets/1447073/9bb4f8c2-321e-4b6d-b52e-2105d69c4d47)
 

@@ -1,6 +1,5 @@
 import "dotenv/config";
 import { run, HandlerContext } from "@xmtp/botkit";
-import { getRedisClient } from "./lib/redis.js";
 
 const inMemoryCache = new Map<
   string,

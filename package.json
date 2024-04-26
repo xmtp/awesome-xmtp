@@ -1,5 +1,5 @@
 {
-  "name": "xmtp-generalstore-bot",
+  "name": "echo-bot",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -8,19 +8,10 @@
     "start": "node dist/src/index.js"
   },
   "devDependencies": {
-    "@parcel/watcher": "^2.4.1",
-    "@types/node-cron": "^3",
     "nodemon": "^3.1.0",
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@xmtp/botkit": "^1.0.8",
-    "@xmtp/grpc-api-client": "^0.2.4",
-    "@xmtp/redis-persistence": "^0.0.4",
-    "@xmtp/xmtp-js": "^11.2.1",
-    "dotenv": "^16.4.5",
-    "ethers": "^5.7.2",
-    "node-cron": "^3.0.3"
-  },
-  "packageManager": "yarn@4.1.1"
+    "@xmtp/botkit": "latest"
+  }
 }
