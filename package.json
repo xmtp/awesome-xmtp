@@ -14,6 +14,7 @@
     "typescript": "^5.4.3"
   },
   "dependencies": {
+    "@xmtp/botkit": "^1.0.8",
     "@xmtp/grpc-api-client": "^0.2.4",
     "@xmtp/redis-persistence": "^0.0.4",
     "@xmtp/xmtp-js": "^11.2.1",

@@ -815,6 +815,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@xmtp/botkit@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "@xmtp/botkit@npm:1.0.8"
+  dependencies:
+    "@xmtp/grpc-api-client": "npm:^0.2.4"
+    "@xmtp/xmtp-js": "npm:^11.2.1"
+    dotenv: "npm:^16.4.5"
+    ethers: "npm:^5.7.2"
+  checksum: 10c0/9683c60ed3115f6c81a0c94dd9594d3658960d6c6b53d873c138d2ca65366574623b5df14a5cfed4221d15888d4a9f0a122f6a4e756449ae3e98c24e3fbec78d
+  languageName: node
+  linkType: hard
+
 "@xmtp/grpc-api-client@npm:^0.2.4":
   version: 0.2.4
   resolution: "@xmtp/grpc-api-client@npm:0.2.4"
@@ -2568,6 +2580,7 @@ __metadata:
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     "@types/node-cron": "npm:^3"
+    "@xmtp/botkit": "npm:^1.0.8"
     "@xmtp/grpc-api-client": "npm:^0.2.4"
     "@xmtp/redis-persistence": "npm:^0.0.4"
     "@xmtp/xmtp-js": "npm:^11.2.1"

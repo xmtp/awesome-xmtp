@@ -1,6 +1,6 @@
 import "dotenv/config";
-import HandlerContext from "./lib/handler-context";
-import run from "./lib/runner.js";
+import { run, HandlerContext } from "@xmtp/botkit";
+import { getRedisClient } from "./lib/redis.js";
 
 const inMemoryCache = new Map<
   string,
@@ -15,7 +15,7 @@ run(async (context: HandlerContext) => {
   const cacheEntry = inMemoryCache.get(senderAddress); // Retrieve the current cache entry for the sender.
 
   let reset = false; // Flag to indicate if the interaction step has been reset.
-  const defaultStopWords = ["stop", "unsubscribe", "cancel"];
+  const defaultStopWords = ["stop", "unsubscribe", "cancel", "list"];
   if (defaultStopWords.some((word) => content.toLowerCase().includes(word))) {
     // If its a stop word
     reset = true;
