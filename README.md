@@ -27,7 +27,7 @@ All these Frames are compatible with the [Open Frames](https://github.com/open-f
 - 🪨 [Rock Paper Scissors](https://xmtp-frame-rock-paper-scissors.vercel.app/): Rock paper scissors game.
 - 📊 [FC Polls](https://github.com/xmtp-labs/fc-polls): Farcaster Polls working on messaging apps.
 - 🌿 [Mint Frame](https://github.com/fabriguespe/mint-frame/): Frame for redirecting users to mint on Zora
-- 💸 [Tx Receipt](https://github.com/fabriguespe/faucet-tx-frame) : Frame that acts a transaction receipt.
+- 💸 [Tx Receipt](https://github.com/fabriguespe/tx-receipt-frame) : Frame that acts a transaction receipt.
 - 🎯 [Gitcoin Grants](https://github.com/koisose/frame): Grant that showcases Gitcoin grants
 
 Learn
