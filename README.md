@@ -6,12 +6,12 @@ A list of awesome projects using XMTP. Create a PR, get visibility 👀. To lear
 
 ## Bots 🤖
 
-- 🚀 [Trending Mints](https://github.com/fabriguespe/xmtp-trendingmints-bot) `trendingmints.eth`: Subscribe to get real-time trending mints in Base through [Airstack](https://www.airstack.xyz/)
-- 💧 [Faucet Bot](https://github.com/fabriguespe/faucet-tx-frame) `faucetbot.eth`: Delivers Faucet funds to devs on Testnet via [Learnweb3](https://learnweb3.io/faucets/).
-- 🤖 [AI Docs](https://github.com/fabriguespe/xmtp-ai-docs-bot) `docs.hi.xmtp.eth`: Chat with the XMTP [Docs](https://xmtp.org/docs/introduction) through an API with a GPT enabled bot.
-- 🛍️ [Store Bot](https://github.com/fabriguespe/xmtp-generalstore-bot) `store.hi.xmtp.eth`: Bot simulating an e-commerce store that can take orders and list items.
+- 🚀 [Trending Mints](https://github.com/fabriguespe/trendingmints-bot) `trendingmints.eth`: Subscribe to get real-time trending mints in Base through [Airstack](https://www.airstack.xyz/)
+- 💧 [Faucet Bot](https://github.com/fabriguespe/faucet-bot) `faucetbot.eth`: Delivers Faucet funds to devs on Testnet via [Learnweb3](https://learnweb3.io/faucets/).
+- 🤖 [AI Docs](https://github.com/fabriguespe/xmtp-docs-bot) `docs.hi.xmtp.eth`: Chat with the XMTP [Docs](https://xmtp.org/docs/introduction) through an API with a GPT enabled bot.
+- 🛍️ [Store Bot](https://github.com/fabriguespe/thegeneralstore-bot) `store.hi.xmtp.eth`: Bot simulating an e-commerce store that can take orders and list items.
 - 📅 Wordle a Day [`dailywordle.eth`](https://converse.xyz/dm/dailywordle.eth): Play daily to the WORDLE game by [du8](https://warpcast.com/ds8/0x2d31015a) through messaging.
-- 🃏 [Crypto Joker](https://github.com/fabriguespe/xmtp-bot-gpt) `gpt.hi.xmtp.eth` : Get funny cypto jokes with an a GPT powered bot using Open AI APIs.
+- 🃏 [Crypto Joker](https://github.com/fabriguespe/cypto-joker) `gpt.hi.xmtp.eth` : Get funny cypto jokes with an a GPT powered bot using Open AI APIs.
 
 Learn
 
