@@ -1,5 +1,5 @@
 {
-  "name": "echo-bot",
+  "name": "awesome-xmtp",
   "type": "module",
   "scripts": {
     "build": "tsc",
