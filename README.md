@@ -1,13 +1,13 @@
 # Awesome XMTP
 
-> This repo is an open frame and a bot. Message `awesome.hi.xmtp.eth` to talk to the repo.
+> 💬 **Try it:** Message `awesome.hi.xmtp.eth`
 
 A list of awesome projects using XMTP. Create a PR, get visibility 👀. To learn more check XMTP's [website](https://xmtp.org/)
 
 ## Bots 🤖
 
-- 🚀 [Trending Mints](https://github.com/fabriguespe/xmtp-trendingmints-bot) `trendingmints.eth`: Subscribe to get real-time trending mints in Base through [Airstack](https://www.airstack.xyz/) and mint through daily messages. Uses [Mint Frame](https://github.com/fabriguespe/mint-frame/tree/main)
-- 💧 [Faucet Bot](https://github.com/fabriguespe/faucet-tx-frame) `faucetbot.eth`: Delivers Faucet funds to devs on Testnet via [Learnweb3](https://learnweb3.io/faucets/). Uses [Tx Receipt Frame](https://github.com/fabriguespe/faucet-tx-frame).
+- 🚀 [Trending Mints](https://github.com/fabriguespe/xmtp-trendingmints-bot) `trendingmints.eth`: Subscribe to get real-time trending mints in Base through [Airstack](https://www.airstack.xyz/)
+- 💧 [Faucet Bot](https://github.com/fabriguespe/faucet-tx-frame) `faucetbot.eth`: Delivers Faucet funds to devs on Testnet via [Learnweb3](https://learnweb3.io/faucets/).
 - 🤖 [AI Docs](https://github.com/fabriguespe/xmtp-ai-docs-bot) `docs.hi.xmtp.eth`: Chat with the XMTP [Docs](https://xmtp.org/docs/introduction) through an API with a GPT enabled bot.
 - 🛍️ [Store Bot](https://github.com/fabriguespe/xmtp-generalstore-bot) `store.hi.xmtp.eth`: Bot simulating an e-commerce store that can take orders and list items.
 - 📅 Wordle a Day [`dailywordle.eth`](https://converse.xyz/dm/dailywordle.eth): Play daily to the WORDLE game by [du8](https://warpcast.com/ds8/0x2d31015a) through messaging.
