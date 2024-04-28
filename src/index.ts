@@ -1,6 +1,5 @@
 import "dotenv/config";
 import { run, HandlerContext } from "@xmtp/botkit";
-
 import Mixpanel from "mixpanel";
 const mixpanel = Mixpanel.init(process.env.MIX_PANEL as string);
 
@@ -28,6 +27,10 @@ run(async (context: HandlerContext) => {
     "💬 Gpt Bot: gpt.hi.xmtp.eth : Chat with an AI powered bot.",
   ];
 
+  const frameUrls = [
+    "🌍 Farguessr : https://farguessr.vercel.app/",
+    "🖼️ Wordle : https://openframedl.vercel.app/",
+  ];
   // Function to send bot and frame information
   const sendBotAndFrameInfo = async () => {
     const fullBotDescriptions = botInfo
@@ -35,6 +38,12 @@ run(async (context: HandlerContext) => {
       .join("\n\n");
     await context.reply(`Bots 🤖:\n\n${fullBotDescriptions}`);
 
+    const fullFrameDescriptions =
+      frameUrls[Math.floor(Math.random() * frameUrls.length)];
+
+    await context.reply(
+      `By the way, you can also add frames to the bot. Here are some examples of frames:\n\n${fullFrameDescriptions}`
+    );
     await context.reply(
       `Discover more bots in Awesome XMTP https://github.com/xmtp/awesome-xmtp ✨.`
     );
