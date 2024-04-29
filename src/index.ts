@@ -21,7 +21,7 @@ run(async (context: HandlerContext) => {
     "🚀 Trending Mints Bot trendingmints.eth : Subscribe to get real-time trending mints in Base through Airstack and mint through daily messages.",
     "💧 Faucet Bot faucetbot.eth : Delivers Faucet funds to devs on Testnet. Powered by Learnweb3.",
     "🤖 AI Docs Bot docs.hi.xmtp.eth : Chat with the XMTP Docs through an API with a GPT powered bot. Powered by Kapa.",
-    "🛍️ TheGeneralStore store.hi.xmtp.eth : Bot for ordering goodies in hackathons.",
+    "🛍️ TheGeneralStore thegeneralstore.eth : E-commerce bot for ordering goodies in hackathons.",
     "📅 Wordle a Day dailywordle.eth : Play daily through XMTP to the WORDLE game created by du8.",
     "🌟 Awesome Bot: awesome.hi.xmtp.eth : Learn everything about frames and bots.",
     "💬 Gpt Bot: gpt.hi.xmtp.eth : Chat with an AI powered bot.",
