@@ -8,7 +8,7 @@ A list of awesome projects using XMTP. Create a PR, get visibility 👀. To lear
 
 - 🚀 [Trending Mints](https://github.com/fabriguespe/trendingmints-bot) `trendingmints.eth`: Subscribe to get real-time trending mints in Base through [Airstack](https://www.airstack.xyz/)
 - 💧 [Faucet Bot](https://github.com/fabriguespe/faucet-bot) `faucetbot.eth`: Delivers Faucet funds to devs on Testnet via [Learnweb3](https://learnweb3.io/faucets/).
-- 🤖 [XMTP Docs](https://github.com/fabriguespe/xmtp-docs-bot) `docs.hi.xmtp.eth`: Chat with the XMTP Docs through an API with a GPT powered bot. Powered by [Kapa](https://kapa.ai).
+- 🤖 [XMTP Docs](https://github.com/fabriguespe/xmtp-docs-bot) `docs.hi.xmtp.eth`: Chat with the XMTP [Docs](https://xmtp.org/docs/introduction) through [Kapa](https://kapa.ai).
 - 🛒 [TheGeneralStore](https://github.com/fabriguespe/thegeneralstore-bot) `thegeneralstore.eth`: E-commerce bot for ordering goodies in hackathons.
 - 📅 Wordle a Day [`dailywordle.eth`](https://converse.xyz/dm/dailywordle.eth): Play daily to the WORDLE game by [du8](https://warpcast.com/ds8/0x2d31015a) through messaging.
 - 🃏 [Crypto Joker](https://github.com/fabriguespe/crypto-joker) `gpt.hi.xmtp.eth` : Get funny cypto jokes with an a GPT powered bot using Open AI APIs.
