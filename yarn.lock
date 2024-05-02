@@ -354,22 +354,22 @@
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.1.tgz#b9da6a878a371829a0502c9b6c1c143ef6663f4d"
   integrity sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==
 
-"@grpc/grpc-js@^1.9.2":
-  version "1.10.6"
-  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.10.6.tgz#1e3eb1af911dc888fbef7452f56a7573b8284d54"
-  integrity sha512-xP58G7wDQ4TCmN/cMUHh00DS7SRDv/+lC+xFLrTkMIN8h55X5NhZMLYbvy7dSELP15qlI6hPhNCRWVMtZMwqLA==
+"@grpc/grpc-js@^1.10.6":
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.10.7.tgz#1abce1a8c4c90b79dbbe57d7e4310f3b0ce72899"
+  integrity sha512-ZMBVjSeDAz3tFSehyO6Pd08xZT1HfIwq3opbeM4cDlBh52gmwp0wVIPcQur53NN0ac68HMZ/7SF2rGRD5KmVmg==
   dependencies:
-    "@grpc/proto-loader" "^0.7.10"
+    "@grpc/proto-loader" "^0.7.13"
     "@js-sdsl/ordered-map" "^4.4.2"
 
-"@grpc/proto-loader@^0.7.10":
-  version "0.7.12"
-  resolved "https://registry.yarnpkg.com/@grpc/proto-loader/-/proto-loader-0.7.12.tgz#787b58e3e3771df30b1567c057b6ab89e3a42911"
-  integrity sha512-DCVwMxqYzpUCiDMl7hQ384FqP4T3DbNpXU8pt681l3UWCip1WUiD5JrkImUwCB9a7f2cq4CUTmi5r/xIMRPY1Q==
+"@grpc/proto-loader@^0.7.13":
+  version "0.7.13"
+  resolved "https://registry.yarnpkg.com/@grpc/proto-loader/-/proto-loader-0.7.13.tgz#f6a44b2b7c9f7b609f5748c6eac2d420e37670cf"
+  integrity sha512-AiXO/bfe9bmxBjxxtYxFAXGZvMaN5s8kO+jBHAJCON8rJoB5YS/D6X7ZNc6XQkuHNmyl4CYaMI1fJ/Gn27RGGw==
   dependencies:
     lodash.camelcase "^4.3.0"
     long "^5.0.0"
-    protobufjs "^7.2.4"
+    protobufjs "^7.2.5"
     yargs "^17.7.2"
 
 "@js-sdsl/ordered-map@^4.4.2":
@@ -501,43 +501,43 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@xmtp/botkit@latest":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@xmtp/botkit/-/botkit-1.0.8.tgz#3df67082866d74358af8ceebc0eef30590a9d31f"
-  integrity sha512-KL49nlIxvHoe372Vpuv/0YXOSC0HQM7nXew9aUWNHhPUshTSexbUc+P2ZjRPk+9QsYmFy5oe9Z6ojNMxXnWbKw==
+"@xmtp/botkit@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@xmtp/botkit/-/botkit-2.0.0.tgz#87baea06e4ae1709c8abcd67a8344448086baec6"
+  integrity sha512-p1VQTtAOLgORvEaiyuEKEUhoDHKQ7BA/9Vq1aSgh3BhFoGljMFi/WNZmbW+pfxDsu1y29XNdgbkV6CJh3Y5N9Q==
   dependencies:
-    "@xmtp/grpc-api-client" "^0.2.4"
-    "@xmtp/xmtp-js" "^11.2.1"
+    "@xmtp/grpc-api-client" "^0.2.5"
+    "@xmtp/xmtp-js" "^11.5.1"
     dotenv "^16.4.5"
     ethers "^5.7.2"
 
-"@xmtp/grpc-api-client@^0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@xmtp/grpc-api-client/-/grpc-api-client-0.2.4.tgz#dbf86af4f0556b06874f274110b001490dbe99f3"
-  integrity sha512-dPr6E1W88jcC5mN1lSG3BKO0CBkPIR4MISevxZfnMS1i/gwiL7J8PuirbNj2K9M4I/K7a6/vBzepK/8pk352hg==
+"@xmtp/grpc-api-client@^0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@xmtp/grpc-api-client/-/grpc-api-client-0.2.5.tgz#4710c4ef14015cbcabc1728f13b02cc02d904121"
+  integrity sha512-/ao+MYSpgFZb67e/ynguxur7PKXYknXUhZHLnpuyN7xGzheCoJvGes9SL9K2DnMwLW2wrOViVHpmcUKl0vsGjg==
   dependencies:
-    "@grpc/grpc-js" "^1.9.2"
+    "@grpc/grpc-js" "^1.10.6"
     "@protobuf-ts/grpc-transport" "^2.9.1"
     "@protobuf-ts/runtime" "^2.9.1"
     "@protobuf-ts/runtime-rpc" "^2.9.1"
-    "@xmtp/proto" "^3.28.0-beta.1"
-    "@xmtp/xmtp-js" "^11.0.0-beta.9"
-    pino "^8.15.1"
+    "@xmtp/proto" "^3.52.0"
+    "@xmtp/xmtp-js" "^11.3.12"
+    pino "^8.18.0"
 
-"@xmtp/proto@3.45.0":
-  version "3.45.0"
-  resolved "https://registry.yarnpkg.com/@xmtp/proto/-/proto-3.45.0.tgz#2aaca656a6da85a05ae75f72340ce1ef5e4fb2ec"
-  integrity sha512-6d/UE/vqi1erpL+z/HSGvFOnJt+y7RE23g6SUUUB7tx75VAi5A0/uLwzPr/eyVkiHZGqlbktq8Rzco+HgTyTAw==
+"@xmtp/proto@3.54.0":
+  version "3.54.0"
+  resolved "https://registry.yarnpkg.com/@xmtp/proto/-/proto-3.54.0.tgz#1b6be9fa2268a51b730bf484af3bf0ebc2621505"
+  integrity sha512-X0jDRR19/tH0qRB8mM/H/vBueQAK22VZF4QUnDN7TgnbNaOYL5DvSmPfXFH+xzeGKQ5S0zgwc+qFJbI4xoKNHw==
   dependencies:
     long "^5.2.0"
     protobufjs "^7.0.0"
     rxjs "^7.8.0"
     undici "^5.8.1"
 
-"@xmtp/proto@^3.28.0-beta.1":
-  version "3.54.0"
-  resolved "https://registry.yarnpkg.com/@xmtp/proto/-/proto-3.54.0.tgz#1b6be9fa2268a51b730bf484af3bf0ebc2621505"
-  integrity sha512-X0jDRR19/tH0qRB8mM/H/vBueQAK22VZF4QUnDN7TgnbNaOYL5DvSmPfXFH+xzeGKQ5S0zgwc+qFJbI4xoKNHw==
+"@xmtp/proto@^3.52.0":
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/@xmtp/proto/-/proto-3.55.0.tgz#14293ede213baf873eac4da6d5434cf1e2d4d5d4"
+  integrity sha512-rxqb0AD2hSY3ECJ6B7+XjatoBFWCC8OX3lZ4ekcqkHQqKfyLjndGt4NmJNPzQ6DgOr0VQbyTVxTUmbpdx21ANw==
   dependencies:
     long "^5.2.0"
     protobufjs "^7.0.0"
@@ -549,13 +549,13 @@
   resolved "https://registry.yarnpkg.com/@xmtp/user-preferences-bindings-wasm/-/user-preferences-bindings-wasm-0.3.6.tgz#4ca58dca940574483caa8cbd4d9c609577b1e0f1"
   integrity sha512-ANi6ikrO6YBaK978sMuEEnpREvFQQnMVaNdlviaLzmc07u4Of4s/VLNnavl4qTb4F4cvwSiBWou0wSYIE5SWYg==
 
-"@xmtp/xmtp-js@^11.0.0-beta.9", "@xmtp/xmtp-js@^11.2.1":
-  version "11.5.1"
-  resolved "https://registry.yarnpkg.com/@xmtp/xmtp-js/-/xmtp-js-11.5.1.tgz#ec21c6bef2308bb666f3326ea2226163a960d1eb"
-  integrity sha512-kP4y7MZoUYgBqVcDsJNBAW5LYUSo+5sIwTNGCiMsbIaQUk4Znm+D2JXm1dgGSlFFuHjWY08Wz/B9C+fVHoO5OA==
+"@xmtp/xmtp-js@^11.3.12", "@xmtp/xmtp-js@^11.5.1":
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/@xmtp/xmtp-js/-/xmtp-js-11.6.0.tgz#7a04f73c205f79aa94981251d62a207843ff161c"
+  integrity sha512-VTpSTVyo34vZ0pdqtF4m4dWzeB53dowqqRwNQh14pSddR+vphO8wNbfIGwtDnXVPGehoX6uBux4zS+GOJ7z0aA==
   dependencies:
     "@noble/secp256k1" "1.7.1"
-    "@xmtp/proto" "3.45.0"
+    "@xmtp/proto" "3.54.0"
     "@xmtp/user-preferences-bindings-wasm" "^0.3.6"
     async-mutex "^0.5.0"
     elliptic "^6.5.4"
@@ -1026,7 +1026,7 @@ pino-std-serializers@^6.0.0:
   resolved "https://registry.yarnpkg.com/pino-std-serializers/-/pino-std-serializers-6.2.2.tgz#d9a9b5f2b9a402486a5fc4db0a737570a860aab3"
   integrity sha512-cHjPPsE+vhj/tnhCy/wiMh3M3z3h/j15zHQX+S9GkTBgqJuTuJzYJ4gUyACLhDaJ7kk9ba9iRDmbH2tJU03OiA==
 
-pino@^8.15.1:
+pino@^8.18.0:
   version "8.21.0"
   resolved "https://registry.yarnpkg.com/pino/-/pino-8.21.0.tgz#e1207f3675a2722940d62da79a7a55a98409f00d"
   integrity sha512-ip4qdzjkAyDDZklUaZkcRFb2iA118H9SgRh8yzTkSQK8HilsOJF7rSY8HoW5+I0M46AZgX/pxbprf2vvzQCE0Q==
@@ -1053,7 +1053,7 @@ process@^0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
-protobufjs@^7.0.0, protobufjs@^7.2.4:
+protobufjs@^7.0.0, protobufjs@^7.2.5:
   version "7.2.6"
   resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-7.2.6.tgz#4a0ccd79eb292717aacf07530a07e0ed20278215"
   integrity sha512-dgJaEDDL6x8ASUZ1YqWciTRrdOuYNzoOf27oHNfdyvKqHr5i0FV7FSLU+aIeFjyFgVxrpTOtQUi0BLLBymZaBw==
