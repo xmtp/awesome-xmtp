@@ -12,7 +12,7 @@
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@xmtp/botkit": "^2.0.0",
+    "@xmtp/botkit": "latest",
     "mixpanel": "^0.18.0"
   }
 }
