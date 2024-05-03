@@ -501,20 +501,20 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@xmtp/botkit@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@xmtp/botkit/-/botkit-2.3.0.tgz#6a3b73fc6659909eb1180eeba30c95aa34d6fb84"
-  integrity sha512-6qKqpf8VPK/nwFn4YdXlo1SkE2VcKH9xlZOG9pOV6Ms2WbsTRBx1n+MFfeP61thQldCN7h+xw93Gti528kqung==
+"@xmtp/botkit@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@xmtp/botkit/-/botkit-2.3.1.tgz#4bcf04a065df316ebead223d4fd78af9dfb17484"
+  integrity sha512-cxS+GnWzDLvE8y0SsTB48wt5l/VmfIczaeTzOVt2nSvazMwtGqHbuJK+mVthRTkODHoADby2H6p2PzyoNPcucA==
   dependencies:
-    "@xmtp/grpc-api-client" "^0.2.4"
+    "@xmtp/grpc-api-client" "^0.2.7"
     "@xmtp/xmtp-js" "^11.5.1"
     dotenv "^16.4.5"
     ethers "^5.7.2"
 
-"@xmtp/grpc-api-client@^0.2.4":
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/@xmtp/grpc-api-client/-/grpc-api-client-0.2.6.tgz#e3ab55a027ffbe35ef4d648f86431e4806b3d007"
-  integrity sha512-Mj+8H2Aw60Ws6lHzIEaeBhtFkX3MsDOEe4wKoSHUFC3PwPon3lDfLQ8Gaj0tJ6qosui/7WCtBrhGKtBtbxbxsg==
+"@xmtp/grpc-api-client@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@xmtp/grpc-api-client/-/grpc-api-client-0.2.7.tgz#7ad8c63d98768c0121856289b02a5f7efdaa0cf5"
+  integrity sha512-HNDg7lB3VomHDF2Og5wFZjh+f9RqHU9JFiBWKsGY2xBX91h4gU6NQqKyhUP49vDci37td8nAH+3LWwNzzp9+fw==
   dependencies:
     "@grpc/grpc-js" "^1.10.6"
     "@protobuf-ts/grpc-transport" "^2.9.1"
