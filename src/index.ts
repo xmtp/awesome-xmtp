@@ -30,6 +30,7 @@ run(async (context: HandlerContext) => {
   const frameUrls = [
     "🌍 Farguessr : https://farguessr.vercel.app/",
     "🖼️ Wordle : https://openframedl.vercel.app/",
+    "🎰 Slot machine : https://slot-machine-frame.vercel.app/",
   ];
   // Function to send bot and frame information
   const sendBotAndFrameInfo = async () => {
