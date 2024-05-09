@@ -29,6 +29,7 @@ All these Frames are compatible with the [Open Frames](https://github.com/open-f
 - 🌿 [Mint Frame](https://github.com/fabriguespe/mint-frame/): Frame for redirecting users to mint on Zora
 - 💸 [Tx Receipt](https://github.com/fabriguespe/tx-receipt-frame) : Frame that acts a transaction receipt.
 - 🎯 [Gitcoin Grants](https://github.com/koisose/frame): Grant that showcases Gitcoin grants
+- 🎰 [Slot machine](https://slot-machine-frame.vercel.app/): Slot machine open frame.
 
 Learn
 
