@@ -1,3 +1,14 @@
+![Status](https://img.shields.io/badge/Deprecated-brown)
+
+> [!CAUTION]
+> This repo is no longer maintained.
+
+To explore examples of agents built with the XMTP Node SDK, see [xmtp-agent-examples](https://github.com/ephemeraHQ/xmtp-agent-examples).
+
+The documentation below is provided for historical reference only.
+
+---
+
 # Awesome XMTP
 
 A list of awesome projects using XMTP. Also check out the curated showcase at [Built with XMTP](https://xmtp.org/built-with-xmtp) 🛠️
